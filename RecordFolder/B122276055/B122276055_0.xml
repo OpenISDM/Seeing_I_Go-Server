@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Records PatientID="B122276055" OpdDate="2020/07/19">
+	<Record>
+		<DptName name="心內科"/>
+		<Shift name="上午"/>
+		<CareRoom name="207診"/>
+		<DrName name="Joe Chou"/>
+		<SeeSeq name="4"/>
+		<Type name="QueryResult"/>
+	</Record>
+	<Record>
+		<DptName name="心臟外科"/>
+		<Shift name="上午"/>
+		<CareRoom name="230診"/>
+		<DrName name="Joey Zhou"/>
+		<SeeSeq name="7"/>
+		<Type name="QueryResult"/>
+	</Record>
+</Records>
+

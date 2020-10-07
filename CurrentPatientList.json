@@ -1,0 +1,11 @@
+{
+	"Hospitals":[
+		{
+			"HospitalName" : "CCH",
+			"PatientList":
+			[
+				"B122276055", "A123456789"
+			]
+		}
+]
+}
