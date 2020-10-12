@@ -7,11 +7,6 @@ var MapData = Fin.readFileSync('./CurrentMaps.json' , utf8);
 var json = JSON.parse(MapData);
 
 var CompareMapName = function (MapName){
-		// console.log(MapName);
-		// console.log(typeof(MapName));
-
-		// console.log(json.Maps.indexOf(MapName));
-
 		const filter = json.Maps.filter(ele => ele.Name == MapName);
 		if(filter.length >= 1){
 			return true;
@@ -85,10 +80,6 @@ var CheckExistPatient = function(HospitalName, PatientID){
 	var path = "./CurrentPatientList.json";
 
 	var HospitalList = JSON.parse(ReadFile(path));
-	// console.log(HospitalList);
-	// console.log(HospitalList.Hospitals);
-	// console.log(HospitalList.Hospitals[0].HospitalName);
-	// console.log(HospitalList.Hospitals[0].Patients[0]);
 
 	for( i=0; i<HospitalList.Hospitals.length ; i++){
 		if(HospitalList.Hospitals[i].HospitalName != HospitalName)
@@ -96,12 +87,22 @@ var CheckExistPatient = function(HospitalName, PatientID){
 
 		return HospitalList.Hospitals[i].PatientList.includes(PatientID);
 	}
-
 	return false;
 }
 
 var CheckPictureExist = function(buildingName, fileName){
 	return true;
+}
+
+var GetPicture = function(buildingName, fileName){
+	console.log(">>GetPicture");
+	console.log("file path :" + __dirname + "/AppResources/" +buildingName +"/" + "pictures/" + fileName);
+	return ReadFile( __dirname + "/AppResources/" +buildingName +"/" + "pictures/" + fileName);
+}
+
+var GetPicturePath = function(buildingName, fileName){
+	console.log(">>GetPicturePath");
+	return __dirname + "/AppResources/" +buildingName +"/" + "pictures/" + fileName;
 }
 
 var Resourcemodule={
@@ -115,7 +116,9 @@ var Resourcemodule={
 	CheckExistPatient : CheckExistPatient,
 	GetRecords : GetRecords,
 	ReadFile : ReadFile,
-	CheckPictureExist : CheckPictureExist
+	CheckPictureExist : CheckPictureExist,
+	GetPicture : GetPicture,
+	GetPicturePath : GetPicturePath
 }
 
 module.exports = Resourcemodule;

@@ -111,12 +111,10 @@ app.post('/pictures', function(request, respond){
 	console.log(">>post function, Picutre");
 
 	if(_resources.CheckPictureExist(request.query.building, request.body.fileName)){
-		respond.sendFile(path.join(__dirname + "building/fileName"));
+		//respond.sendFile(path.join(__dirname + "building/pictures/fileName"));
+		respond.sendFile(_resources.GetPicturePath(request.query.building, request.body.fileName));
 	}else{
 		respond.send("Can not found the picture.");
 	}
 });
 
-// app.listen(80, function(){
-// 	console.log("The server is listening port 80");
-// })
