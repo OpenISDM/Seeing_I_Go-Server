@@ -210,134 +210,145 @@
             <waypoint id='00000000-0000-0000-0000-000000003203' name='會議室N203' type='terminal' lat='25.038325' lon='121.564076' category='ConferenceRoom' />
           
             <!-- #Region 2F edges -->
-            <edge node1='00000000-0000-0000-0000-000000000301' node2='00000000-0000-0000-0000-000000000302' bi_direction='2' source = '' direction='4' connection_type='NormalHallway' />
-            <edge node1='00000000-0000-0000-0000-000000000302' node2='00000000-0000-0000-0000-000000303304' bi_direction='2' source = '' direction='6' connection_type='NormalHallway' />
+            <edge node1='00000000-0000-0000-0000-000000000301' node2='00000000-0000-0000-0000-000000000302' bi_direction='2' source = '' direction='4' connection_type='NormalHallway' picture12="" picture21=""/>
+
+            <edge node1='00000000-0000-0000-0000-000000000302' node2='00000000-0000-0000-0000-000000303304' bi_direction='2' source = '' direction='6' connection_type='NormalHallway' picture12="" picture21=""/>
             
-            <edge node1='00000000-0000-0000-0000-000000305304' node2='00000000-0000-0000-0000-000000000306' bi_direction='2' source = '' direction='6' connection_type='NormalHallway' />
+            <edge node1='00000000-0000-0000-0000-000000305304' node2='00000000-0000-0000-0000-000000000306' bi_direction='2' source = '' direction='6' connection_type='NormalHallway' picture12="" picture21=""/>
             
-            <edge node1='00000000-0000-0000-0000-000000000306' node2='00000000-0000-0000-0000-000000000307' bi_direction='2' source = '' direction='6' connection_type='NormalHallway' />
+            <edge node1='00000000-0000-0000-0000-000000000306' node2='00000000-0000-0000-0000-000000000307' bi_direction='2' source = '' direction='6' connection_type='NormalHallway' picture12="" picture21=""/>
             
-            <edge node1='00000000-0000-0000-0000-000000000307' node2='00000000-0000-0000-0000-000000000311' bi_direction='2' source = '' direction='4' connection_type='NormalHallway' />
-            <edge node1='00000000-0000-0000-0000-000000305304' node2='00000000-0000-0000-0000-100000000306' bi_direction='2' source = '' direction='6' connection_type='NormalHallway' />
-            <edge node1='00000000-0000-0000-0000-000000305304' node2='00000000-0000-0000-0000-000000303304' bi_direction='2' source = '' direction='2' connection_type='NormalHallway' />
-            <edge node1='00000000-0000-0000-0000-100000000306' node2='00000000-0000-0000-0000-000000000307' bi_direction='2' source = '' direction='6' connection_type='NormalHallway' />
+            <edge node1='00000000-0000-0000-0000-000000000307' node2='00000000-0000-0000-0000-000000000311' bi_direction='2' source = '' direction='4' connection_type='NormalHallway' picture12="" picture21=""/>
+
+            <edge node1='00000000-0000-0000-0000-000000305304' node2='00000000-0000-0000-0000-100000000306' bi_direction='2' source = '' direction='6' connection_type='NormalHallway' picture12="" picture21=""/>
+
+            <edge node1='00000000-0000-0000-0000-000000305304' node2='00000000-0000-0000-0000-000000303304' bi_direction='2' source = '' direction='2' connection_type='NormalHallway' picture12="" picture21=""/>
+
+            <edge node1='00000000-0000-0000-0000-100000000306' node2='00000000-0000-0000-0000-000000000307' bi_direction='2' source = '' direction='6' connection_type='NormalHallway' picture12="" picture21=""/>
             
-            <edge node1='00000000-0000-0000-0000-000000303304' node2='00000000-0000-0000-0000-000000000309' bi_direction='2' source = '' direction='4' connection_type='NormalHallway' />
-            <edge node1='00000000-0000-0000-0000-000000305304' node2='00000000-0000-0000-0000-000000000310' bi_direction='2' source = '' direction='4' connection_type='NormalHallway' />
-            <edge node1='00000000-0000-0000-0000-000000000309' node2='00000000-0000-0000-0000-000000000308' bi_direction='2' source = '' direction='2' connection_type='NormalHallway' />
-            <edge node1='00000000-0000-0000-0000-000000000309' node2='00000000-0000-0000-0000-000000000310' bi_direction='2' source = '' direction='6' connection_type='NormalHallway' />
-            <edge node1='00000000-0000-0000-0000-000000000310' node2='00000000-0000-0000-0000-000000000311' bi_direction='2' source = '' direction='6' connection_type='NormalHallway' />
-            <edge node1='00000000-0000-0000-0000-000000000308' node2='00000000-0000-0000-0000-000000000312' bi_direction='2' source = '' direction='4' connection_type='NormalHallway' />
-            <edge node1='00000000-0000-0000-0000-000000000309' node2='00000000-0000-0000-0000-000000000313' bi_direction='2' source = '' direction='4' connection_type='NormalHallway' />
-            <edge node1='00000000-0000-0000-0000-000000000310' node2='00000000-0000-0000-0000-000000000314' bi_direction='2' source = '' direction='4' connection_type='NormalHallway' />
+            <edge node1='00000000-0000-0000-0000-000000303304' node2='00000000-0000-0000-0000-000000000309' bi_direction='2' source = '' direction='4' connection_type='NormalHallway' picture12="" picture21=""/>
+
+            <edge node1='00000000-0000-0000-0000-000000305304' node2='00000000-0000-0000-0000-000000000310' bi_direction='2' source = '' direction='4' connection_type='NormalHallway' picture12="" picture21=""/>
+
+            <edge node1='00000000-0000-0000-0000-000000000309' node2='00000000-0000-0000-0000-000000000308' bi_direction='2' source = '' direction='2' connection_type='NormalHallway' picture12="" picture21=""/>
+
+            <edge node1='00000000-0000-0000-0000-000000000309' node2='00000000-0000-0000-0000-000000000310' bi_direction='2' source = '' direction='6' connection_type='NormalHallway' picture12="" picture21=""/>
+
+            <edge node1='00000000-0000-0000-0000-000000000310' node2='00000000-0000-0000-0000-000000000311' bi_direction='2' source = '' direction='6' connection_type='NormalHallway' picture12="" picture21=""/>
+
+            <edge node1='00000000-0000-0000-0000-000000000308' node2='00000000-0000-0000-0000-000000000312' bi_direction='2' source = '' direction='4' connection_type='NormalHallway' picture12="" picture21=""/>
+
+            <edge node1='00000000-0000-0000-0000-000000000309' node2='00000000-0000-0000-0000-000000000313' bi_direction='2' source = '' direction='4' connection_type='NormalHallway' picture12="" picture21=""/>
+
+            <edge node1='00000000-0000-0000-0000-000000000310' node2='00000000-0000-0000-0000-000000000314' bi_direction='2' source = '' direction='4' connection_type='NormalHallway' picture12="" picture21=""/>
             
-            <edge node1='00000000-0000-0000-0000-000000000310' node2='00000000-0000-0000-0000-000000003206' bi_direction='1' source = '1' direction='0' connection_type='VirtualHallway' />
-            <edge node1='00000000-0000-0000-0000-000000305304' node2='00000000-0000-0000-0000-000000003206' bi_direction='1' source = '1' direction='4' connection_type='VirtualHallway' />
-            <edge node1='00000000-0000-0000-0000-000000000310' node2='00000000-0000-0000-0000-000000003201' bi_direction='1' source = '1' direction='6' connection_type='VirtualHallway' />
-            <edge node1='00000000-0000-0000-0000-000000000311' node2='00000000-0000-0000-0000-000000003201' bi_direction='1' source = '1' direction='2' connection_type='VirtualHallway' />
-            <edge node1='00000000-0000-0000-0000-000000000307' node2='00000000-0000-0000-0000-000000003202' bi_direction='1' source = '1' direction='4' connection_type='VirtualHallway' />
-            <edge node1='00000000-0000-0000-0000-000000000311' node2='00000000-0000-0000-0000-000000003202' bi_direction='1' source = '1' direction='0' connection_type='VirtualHallway' />
-            <edge node1='00000000-0000-0000-0000-000000000307' node2='00000000-0000-0000-0000-000000003203' bi_direction='1' source = '1' direction='4' connection_type='VirtualHallway' />
-            <edge node1='00000000-0000-0000-0000-000000000311' node2='00000000-0000-0000-0000-000000003203' bi_direction='1' source = '1' direction='0' connection_type='VirtualHallway' />
-            <edge node1='00000000-0000-0000-0000-000000000310' node2='00000000-0000-0000-0000-000000003205' bi_direction='1' source = '1' direction='0' connection_type='VirtualHallway' />
-            <edge node1='00000000-0000-0000-0000-000000305304' node2='00000000-0000-0000-0000-000000003205' bi_direction='1' source = '1' direction='4' connection_type='VirtualHallway' />
-            <edge node1='00000000-0000-0000-0000-000000000310' node2='00000000-0000-0000-0000-000000003207' bi_direction='1' source = '1' direction='0' connection_type='VirtualHallway' />
-            <edge node1='00000000-0000-0000-0000-000000305304' node2='00000000-0000-0000-0000-000000003207' bi_direction='1' source = '1' direction='4' connection_type='VirtualHallway' />
-            <edge node1='00000000-0000-0000-0000-000000000309' node2='00000000-0000-0000-0000-000000003208' bi_direction='1' source = '1' direction='0' connection_type='VirtualHallway' />
-            <edge node1='00000000-0000-0000-0000-000000303304' node2='00000000-0000-0000-0000-000000003208' bi_direction='1' source = '1' direction='4' connection_type='VirtualHallway' />
-            <edge node1='00000000-0000-0000-0000-000000000309' node2='00000000-0000-0000-0000-000000003209' bi_direction='1' source = '1' direction='0' connection_type='VirtualHallway' />
-            <edge node1='00000000-0000-0000-0000-000000303304' node2='00000000-0000-0000-0000-000000003209' bi_direction='1' source = '1' direction='4' connection_type='VirtualHallway' />
-            <edge node1='00000000-0000-0000-0000-000000000309' node2='00000000-0000-0000-0000-000000003210' bi_direction='1' source = '1' direction='0' connection_type='VirtualHallway' />
-            <edge node1='00000000-0000-0000-0000-000000303304' node2='00000000-0000-0000-0000-000000003210' bi_direction='1' source = '1' direction='4' connection_type='VirtualHallway' />
-            <edge node1='00000000-0000-0000-0000-000000000314' node2='00000000-0000-0000-0000-000000003211' bi_direction='1' source = '1' direction='6' connection_type='VirtualHallway' />
-            <edge node1='00000000-0000-0000-0000-000000000315' node2='00000000-0000-0000-0000-000000003211' bi_direction='1' source = '1' direction='2' connection_type='VirtualHallway' />
-            <edge node1='00000000-0000-0000-0000-000000000314' node2='00000000-0000-0000-0000-000000003212' bi_direction='1' source = '1' direction='6' connection_type='VirtualHallway' />
-            <edge node1='00000000-0000-0000-0000-000000000315' node2='00000000-0000-0000-0000-000000003212' bi_direction='1' source = '1' direction='2' connection_type='VirtualHallway' />
-            <edge node1='00000000-0000-0000-0000-000000000314' node2='00000000-0000-0000-0000-000000003213' bi_direction='1' source = '1' direction='6' connection_type='VirtualHallway' />
-            <edge node1='00000000-0000-0000-0000-000000000315' node2='00000000-0000-0000-0000-000000003213' bi_direction='1' source = '1' direction='2' connection_type='VirtualHallway' />
-            <edge node1='00000000-0000-0000-0000-000000000314' node2='00000000-0000-0000-0000-000000003214' bi_direction='1' source = '1' direction='6' connection_type='VirtualHallway' />
-            <edge node1='00000000-0000-0000-0000-000000000315' node2='00000000-0000-0000-0000-000000003214' bi_direction='1' source = '1' direction='2' connection_type='VirtualHallway' />
-            <edge node1='00000000-0000-0000-0000-000000000314' node2='00000000-0000-0000-0000-000000003215' bi_direction='1' source = '1' direction='6' connection_type='VirtualHallway' />
-            <edge node1='00000000-0000-0000-0000-000000000315' node2='00000000-0000-0000-0000-000000003215' bi_direction='1' source = '1' direction='2' connection_type='VirtualHallway' />
-            <edge node1='00000000-0000-0000-0000-000000000329' node2='00000000-0000-0000-0000-000000003216' bi_direction='1' source = '1' direction='4' connection_type='VirtualHallway' />
-            <edge node1='00000000-0000-0000-0000-000000003234' node2='00000000-0000-0000-0000-000000003216' bi_direction='1' source = '1' direction='0' connection_type='VirtualHallway' />
-            <edge node1='00000000-0000-0000-0000-000000000329' node2='00000000-0000-0000-0000-000000003217' bi_direction='1' source = '1' direction='4' connection_type='VirtualHallway' />
-            <edge node1='00000000-0000-0000-0000-000000003234' node2='00000000-0000-0000-0000-000000003217' bi_direction='1' source = '1' direction='0' connection_type='VirtualHallway' />
-            <edge node1='00000000-0000-0000-0000-000000000329' node2='00000000-0000-0000-0000-000000003218' bi_direction='1' source = '1' direction='4' connection_type='VirtualHallway' />
-            <edge node1='00000000-0000-0000-0000-000000003234' node2='00000000-0000-0000-0000-000000003218' bi_direction='1' source = '1' direction='0' connection_type='VirtualHallway' />
+            <edge node1='00000000-0000-0000-0000-000000000310' node2='00000000-0000-0000-0000-000000003206' bi_direction='1' source = '1' direction='0' connection_type='VirtualHallway' picture12="" picture21=""/>
+            <edge node1='00000000-0000-0000-0000-000000305304' node2='00000000-0000-0000-0000-000000003206' bi_direction='1' source = '1' direction='4' connection_type='VirtualHallway' picture12="" picture21=""/>
+            <edge node1='00000000-0000-0000-0000-000000000310' node2='00000000-0000-0000-0000-000000003201' bi_direction='1' source = '1' direction='6' connection_type='VirtualHallway' picture12="" picture21=""/>
+            <edge node1='00000000-0000-0000-0000-000000000311' node2='00000000-0000-0000-0000-000000003201' bi_direction='1' source = '1' direction='2' connection_type='VirtualHallway' picture12="" picture21=""/>
+            <edge node1='00000000-0000-0000-0000-000000000307' node2='00000000-0000-0000-0000-000000003202' bi_direction='1' source = '1' direction='4' connection_type='VirtualHallway' picture12="" picture21=""/>
+            <edge node1='00000000-0000-0000-0000-000000000311' node2='00000000-0000-0000-0000-000000003202' bi_direction='1' source = '1' direction='0' connection_type='VirtualHallway' picture12="" picture21=""/>
+            <edge node1='00000000-0000-0000-0000-000000000307' node2='00000000-0000-0000-0000-000000003203' bi_direction='1' source = '1' direction='4' connection_type='VirtualHallway' picture12="" picture21=""/>
+            <edge node1='00000000-0000-0000-0000-000000000311' node2='00000000-0000-0000-0000-000000003203' bi_direction='1' source = '1' direction='0' connection_type='VirtualHallway' picture12="" picture21=""/>
+            <edge node1='00000000-0000-0000-0000-000000000310' node2='00000000-0000-0000-0000-000000003205' bi_direction='1' source = '1' direction='0' connection_type='VirtualHallway' picture12="" picture21=""/>
+            <edge node1='00000000-0000-0000-0000-000000305304' node2='00000000-0000-0000-0000-000000003205' bi_direction='1' source = '1' direction='4' connection_type='VirtualHallway' picture12="" picture21=""/>
+            <edge node1='00000000-0000-0000-0000-000000000310' node2='00000000-0000-0000-0000-000000003207' bi_direction='1' source = '1' direction='0' connection_type='VirtualHallway' picture12="" picture21=""/>
+            <edge node1='00000000-0000-0000-0000-000000305304' node2='00000000-0000-0000-0000-000000003207' bi_direction='1' source = '1' direction='4' connection_type='VirtualHallway' picture12="" picture21=""/>
+            <edge node1='00000000-0000-0000-0000-000000000309' node2='00000000-0000-0000-0000-000000003208' bi_direction='1' source = '1' direction='0' connection_type='VirtualHallway' picture12="" picture21=""/>
+            <edge node1='00000000-0000-0000-0000-000000303304' node2='00000000-0000-0000-0000-000000003208' bi_direction='1' source = '1' direction='4' connection_type='VirtualHallway' picture12="" picture21=""/>
+            <edge node1='00000000-0000-0000-0000-000000000309' node2='00000000-0000-0000-0000-000000003209' bi_direction='1' source = '1' direction='0' connection_type='VirtualHallway' picture12="" picture21=""/>
+            <edge node1='00000000-0000-0000-0000-000000303304' node2='00000000-0000-0000-0000-000000003209' bi_direction='1' source = '1' direction='4' connection_type='VirtualHallway' picture12="" picture21=""/>
+            <edge node1='00000000-0000-0000-0000-000000000309' node2='00000000-0000-0000-0000-000000003210' bi_direction='1' source = '1' direction='0' connection_type='VirtualHallway' picture12="" picture21=""/>
+            <edge node1='00000000-0000-0000-0000-000000303304' node2='00000000-0000-0000-0000-000000003210' bi_direction='1' source = '1' direction='4' connection_type='VirtualHallway' picture12="" picture21=""/>
+            <edge node1='00000000-0000-0000-0000-000000000314' node2='00000000-0000-0000-0000-000000003211' bi_direction='1' source = '1' direction='6' connection_type='VirtualHallway' picture12="" picture21=""/>
+            <edge node1='00000000-0000-0000-0000-000000000315' node2='00000000-0000-0000-0000-000000003211' bi_direction='1' source = '1' direction='2' connection_type='VirtualHallway' picture12="" picture21=""/>
+            <edge node1='00000000-0000-0000-0000-000000000314' node2='00000000-0000-0000-0000-000000003212' bi_direction='1' source = '1' direction='6' connection_type='VirtualHallway' picture12="" picture21=""/>
+            <edge node1='00000000-0000-0000-0000-000000000315' node2='00000000-0000-0000-0000-000000003212' bi_direction='1' source = '1' direction='2' connection_type='VirtualHallway' picture12="" picture21=""/>
+            <edge node1='00000000-0000-0000-0000-000000000314' node2='00000000-0000-0000-0000-000000003213' bi_direction='1' source = '1' direction='6' connection_type='VirtualHallway' picture12="" picture21=""/>
+            <edge node1='00000000-0000-0000-0000-000000000315' node2='00000000-0000-0000-0000-000000003213' bi_direction='1' source = '1' direction='2' connection_type='VirtualHallway' picture12="" picture21=""/>
+            <edge node1='00000000-0000-0000-0000-000000000314' node2='00000000-0000-0000-0000-000000003214' bi_direction='1' source = '1' direction='6' connection_type='VirtualHallway' picture12="" picture21=""/>
+            <edge node1='00000000-0000-0000-0000-000000000315' node2='00000000-0000-0000-0000-000000003214' bi_direction='1' source = '1' direction='2' connection_type='VirtualHallway' picture12="" picture21=""/>
+            <edge node1='00000000-0000-0000-0000-000000000314' node2='00000000-0000-0000-0000-000000003215' bi_direction='1' source = '1' direction='6' connection_type='VirtualHallway' picture12="" picture21=""/>
+            <edge node1='00000000-0000-0000-0000-000000000315' node2='00000000-0000-0000-0000-000000003215' bi_direction='1' source = '1' direction='2' connection_type='VirtualHallway' picture12="" picture21=""/>
+            <edge node1='00000000-0000-0000-0000-000000000329' node2='00000000-0000-0000-0000-000000003216' bi_direction='1' source = '1' direction='4' connection_type='VirtualHallway' picture12="" picture21=""/>
+            <edge node1='00000000-0000-0000-0000-000000003234' node2='00000000-0000-0000-0000-000000003216' bi_direction='1' source = '1' direction='0' connection_type='VirtualHallway' picture12="" picture21=""/>
+            <edge node1='00000000-0000-0000-0000-000000000329' node2='00000000-0000-0000-0000-000000003217' bi_direction='1' source = '1' direction='4' connection_type='VirtualHallway' picture12="" picture21=""/>
+            <edge node1='00000000-0000-0000-0000-000000003234' node2='00000000-0000-0000-0000-000000003217' bi_direction='1' source = '1' direction='0' connection_type='VirtualHallway' picture12="" picture21=""/>
+            <edge node1='00000000-0000-0000-0000-000000000329' node2='00000000-0000-0000-0000-000000003218' bi_direction='1' source = '1' direction='4' connection_type='VirtualHallway' picture12="" picture21=""/>
+            <edge node1='00000000-0000-0000-0000-000000003234' node2='00000000-0000-0000-0000-000000003218' bi_direction='1' source = '1' direction='0' connection_type='VirtualHallway' picture12="" picture21=""/>
             
-            <edge node1='00000000-0000-0000-0000-000000000312' node2='00000000-0000-0000-0000-000000000313' bi_direction='2' source = '' direction='6' connection_type='NormalHallway' />
-            <edge node1='00000000-0000-0000-0000-000000000313' node2='00000000-0000-0000-0000-000000000314' bi_direction='2' source = '' direction='6' connection_type='NormalHallway' />
-            <edge node1='00000000-0000-0000-0000-000000000314' node2='00000000-0000-0000-0000-000000000315' bi_direction='2' source = '' direction='6' connection_type='NormalHallway' />
-            <edge node1='00000000-0000-0000-0000-000000000312' node2='00000000-0000-0000-0000-000000316317' bi_direction='2' source = '' direction='4' connection_type='NormalHallway' />
-            <edge node1='00000000-0000-0000-0000-000000000312' node2='00000000-0000-0000-0000-100000316317' bi_direction='2' source = '' direction='4' connection_type='NormalHallway' />
-            <edge node1='00000000-0000-0000-0000-000000000313' node2='00000000-0000-0000-0000-000000000318' bi_direction='2' source = '' direction='5' connection_type='NormalHallway' />
-            <edge node1='00000000-0000-0000-0000-000000000314' node2='00000000-0000-0000-0000-000000000318' bi_direction='2' source = '' direction='3' connection_type='NormalHallway' />
-            <edge node1='00000000-0000-0000-0000-000000316317' node2='00000000-0000-0000-0000-000000000319' bi_direction='2' source = '' direction='4' connection_type='NormalHallway' />
-            <edge node1='00000000-0000-0000-0000-100000316317' node2='00000000-0000-0000-0000-000000000319' bi_direction='2' source = '' direction='4' connection_type='NormalHallway' />
-            <edge node1='00000000-0000-0000-0000-000000000319' node2='00000000-0000-0000-0000-000000000320' bi_direction='2' source = '' direction='4' connection_type='NormalHallway' />
+            <edge node1='00000000-0000-0000-0000-000000000312' node2='00000000-0000-0000-0000-000000000313' bi_direction='2' source = '' direction='6' connection_type='NormalHallway' picture12="" picture21=""/>
+            <edge node1='00000000-0000-0000-0000-000000000313' node2='00000000-0000-0000-0000-000000000314' bi_direction='2' source = '' direction='6' connection_type='NormalHallway' picture12="" picture21=""/>
+            <edge node1='00000000-0000-0000-0000-000000000314' node2='00000000-0000-0000-0000-000000000315' bi_direction='2' source = '' direction='6' connection_type='NormalHallway' picture12="" picture21=""/>
+            <edge node1='00000000-0000-0000-0000-000000000312' node2='00000000-0000-0000-0000-000000316317' bi_direction='2' source = '' direction='4' connection_type='NormalHallway' picture12="" picture21=""/>
+            <edge node1='00000000-0000-0000-0000-000000000312' node2='00000000-0000-0000-0000-100000316317' bi_direction='2' source = '' direction='4' connection_type='NormalHallway' picture12="" picture21=""/>
+            <edge node1='00000000-0000-0000-0000-000000000313' node2='00000000-0000-0000-0000-000000000318' bi_direction='2' source = '' direction='5' connection_type='NormalHallway' picture12="" picture21=""/>
+            <edge node1='00000000-0000-0000-0000-000000000314' node2='00000000-0000-0000-0000-000000000318' bi_direction='2' source = '' direction='3' connection_type='NormalHallway' picture12="" picture21=""/>
+            <edge node1='00000000-0000-0000-0000-000000316317' node2='00000000-0000-0000-0000-000000000319' bi_direction='2' source = '' direction='4' connection_type='NormalHallway' picture12="" picture21=""/>
+            <edge node1='00000000-0000-0000-0000-100000316317' node2='00000000-0000-0000-0000-000000000319' bi_direction='2' source = '' direction='4' connection_type='NormalHallway' picture12="" picture21=""/>
+            <edge node1='00000000-0000-0000-0000-000000000319' node2='00000000-0000-0000-0000-000000000320' bi_direction='2' source = '' direction='4' connection_type='NormalHallway' picture12="" picture21=""/>
             
-            <edge node1='00000000-0000-0000-0000-000000000312' node2='00000000-0000-0000-0000-100000000312' bi_direction='2' source = '' direction='6' connection_type='NormalHallway' />
-            <edge node1='00000000-0000-0000-0000-000000000312' node2='00000000-0000-0000-0000-200000000312' bi_direction='2' source = '' direction='6' connection_type='NormalHallway' />
-            <edge node1='00000000-0000-0000-0000-100000000312' node2='00000000-0000-0000-0000-200000000312' bi_direction='2' source = '' direction='6' connection_type='NormalHallway' />
+            <edge node1='00000000-0000-0000-0000-000000000312' node2='00000000-0000-0000-0000-100000000312' bi_direction='2' source = '' direction='6' connection_type='NormalHallway' picture12="" picture21=""/>
+            <edge node1='00000000-0000-0000-0000-000000000312' node2='00000000-0000-0000-0000-200000000312' bi_direction='2' source = '' direction='6' connection_type='NormalHallway' picture12="" picture21=""/>
+            <edge node1='00000000-0000-0000-0000-100000000312' node2='00000000-0000-0000-0000-200000000312' bi_direction='2' source = '' direction='6' connection_type='NormalHallway' picture12="" picture21=""/>
             
-            <edge node1='00000000-0000-0000-0000-100000000312' node2='00000000-0000-0000-0000-000000000313' bi_direction='2' source = '' direction='6' connection_type='NormalHallway' />
-            <edge node1='00000000-0000-0000-0000-100000000312' node2='00000000-0000-0000-0000-000000316317' bi_direction='2' source = '' direction='4' connection_type='NormalHallway' />
-            <edge node1='00000000-0000-0000-0000-100000000312' node2='00000000-0000-0000-0000-100000316317' bi_direction='2' source = '' direction='4' connection_type='NormalHallway' />
-            <edge node1='00000000-0000-0000-0000-000000000308' node2='00000000-0000-0000-0000-100000000312' bi_direction='2' source = '' direction='4' connection_type='NormalHallway' />
+            <edge node1='00000000-0000-0000-0000-100000000312' node2='00000000-0000-0000-0000-000000000313' bi_direction='2' source = '' direction='6' connection_type='NormalHallway' picture12="" picture21=""/>
+            <edge node1='00000000-0000-0000-0000-100000000312' node2='00000000-0000-0000-0000-000000316317' bi_direction='2' source = '' direction='4' connection_type='NormalHallway' picture12="" picture21=""/>
+            <edge node1='00000000-0000-0000-0000-100000000312' node2='00000000-0000-0000-0000-100000316317' bi_direction='2' source = '' direction='4' connection_type='NormalHallway' picture12="" picture21=""/>
+            <edge node1='00000000-0000-0000-0000-000000000308' node2='00000000-0000-0000-0000-100000000312' bi_direction='2' source = '' direction='4' connection_type='NormalHallway' picture12="" picture21=""/>
             
-            <edge node1='00000000-0000-0000-0000-200000000312' node2='00000000-0000-0000-0000-000000000313' bi_direction='2' source = '' direction='6' connection_type='NormalHallway' />
-            <edge node1='00000000-0000-0000-0000-200000000312' node2='00000000-0000-0000-0000-000000316317' bi_direction='2' source = '' direction='4' connection_type='NormalHallway' />
-            <edge node1='00000000-0000-0000-0000-200000000312' node2='00000000-0000-0000-0000-100000316317' bi_direction='2' source = '' direction='4' connection_type='NormalHallway' />
-            <edge node1='00000000-0000-0000-0000-000000000308' node2='00000000-0000-0000-0000-200000000312' bi_direction='2' source = '' direction='4' connection_type='NormalHallway' />
+            <edge node1='00000000-0000-0000-0000-200000000312' node2='00000000-0000-0000-0000-000000000313' bi_direction='2' source = '' direction='6' connection_type='NormalHallway' picture12="" picture21=""/>
+            <edge node1='00000000-0000-0000-0000-200000000312' node2='00000000-0000-0000-0000-000000316317' bi_direction='2' source = '' direction='4' connection_type='NormalHallway' picture12="" picture21=""/>
+            <edge node1='00000000-0000-0000-0000-200000000312' node2='00000000-0000-0000-0000-100000316317' bi_direction='2' source = '' direction='4' connection_type='NormalHallway' picture12="" picture21=""/>
+            <edge node1='00000000-0000-0000-0000-000000000308' node2='00000000-0000-0000-0000-200000000312' bi_direction='2' source = '' direction='4' connection_type='NormalHallway' picture12="" picture21=""/>
             
-            <edge node1='00000000-0000-0000-0000-000000000319' node2='00000000-0000-0000-0000-100000000319' bi_direction='2' source = '' direction='4' connection_type='NormalHallway' />
+            <edge node1='00000000-0000-0000-0000-000000000319' node2='00000000-0000-0000-0000-100000000319' bi_direction='2' source = '' direction='4' connection_type='NormalHallway' picture12="" picture21=""/>
             
-            <edge node1='00000000-0000-0000-0000-000000316317' node2='00000000-0000-0000-0000-100000000319' bi_direction='2' source = '' direction='4' connection_type='NormalHallway' />
-            <edge node1='00000000-0000-0000-0000-100000316317' node2='00000000-0000-0000-0000-100000000319' bi_direction='2' source = '' direction='4' connection_type='NormalHallway' />
-            <edge node1='00000000-0000-0000-0000-100000000319' node2='00000000-0000-0000-0000-000000000320' bi_direction='2' source = '' direction='4' connection_type='NormalHallway' />
+            <edge node1='00000000-0000-0000-0000-000000316317' node2='00000000-0000-0000-0000-100000000319' bi_direction='2' source = '' direction='4' connection_type='NormalHallway' picture12="" picture21=""/>
+            <edge node1='00000000-0000-0000-0000-100000316317' node2='00000000-0000-0000-0000-100000000319' bi_direction='2' source = '' direction='4' connection_type='NormalHallway' picture12="" picture21=""/>
+            <edge node1='00000000-0000-0000-0000-100000000319' node2='00000000-0000-0000-0000-000000000320' bi_direction='2' source = '' direction='4' connection_type='NormalHallway' picture12="" picture21=""/>
             
-            <edge node1='00000000-0000-0000-0000-000000000321' node2='00000000-0000-0000-0000-100000000321' bi_direction='2' source = '' direction='4' connection_type='NormalHallway' />
+            <edge node1='00000000-0000-0000-0000-000000000321' node2='00000000-0000-0000-0000-100000000321' bi_direction='2' source = '' direction='4' connection_type='NormalHallway' picture12="" picture21=""/>
             
-            <edge node1='00000000-0000-0000-0000-000000000320' node2='00000000-0000-0000-0000-000000000321' bi_direction='2' source = '' direction='4' connection_type='NormalHallway' />
-            <edge node1='00000000-0000-0000-0000-000000000321' node2='00000000-0000-0000-0000-000000322323' bi_direction='2' source = '' direction='4' connection_type='NormalHallway' />
-            <edge node1='00000000-0000-0000-0000-000000000321' node2='00000000-0000-0000-0000-100000322323' bi_direction='2' source = '' direction='4' connection_type='NormalHallway' />
-            <edge node1='00000000-0000-0000-0000-000000000320' node2='00000000-0000-0000-0000-100000000321' bi_direction='2' source = '' direction='4' connection_type='NormalHallway' />
-            <edge node1='00000000-0000-0000-0000-100000000321' node2='00000000-0000-0000-0000-000000322323' bi_direction='2' source = '' direction='4' connection_type='NormalHallway' />
-            <edge node1='00000000-0000-0000-0000-100000000321' node2='00000000-0000-0000-0000-100000322323' bi_direction='2' source = '' direction='4' connection_type='NormalHallway' />
-            <edge node1='00000000-0000-0000-0000-000000322323' node2='00000000-0000-0000-0000-000000000325' bi_direction='2' source = '' direction='4' connection_type='NormalHallway' />
-            <edge node1='00000000-0000-0000-0000-100000322323' node2='00000000-0000-0000-0000-000000000325' bi_direction='2' source = '' direction='4' connection_type='NormalHallway' />
-            <edge node1='00000000-0000-0000-0000-000000000325' node2='00000000-0000-0000-0000-000000000326' bi_direction='2' source = '' direction='6' connection_type='NormalHallway' />
-            <edge node1='00000000-0000-0000-0000-000000000324' node2='00000000-0000-0000-0000-000000000326' bi_direction='2' source = '' direction='3' connection_type='NormalHallway' />
-            <edge node1='00000000-0000-0000-0000-000000000324' node2='00000000-0000-0000-0000-000000000327' bi_direction='2' source = '' direction='5' connection_type='NormalHallway' />
-            <edge node1='00000000-0000-0000-0000-000000000326' node2='00000000-0000-0000-0000-000000000327' bi_direction='2' source = '' direction='6' connection_type='NormalHallway' />
-            <edge node1='00000000-0000-0000-0000-000000000325' node2='00000000-0000-0000-0000-000000000328' bi_direction='2' source = '' direction='4' connection_type='NormalHallway' />
+            <edge node1='00000000-0000-0000-0000-000000000320' node2='00000000-0000-0000-0000-000000000321' bi_direction='2' source = '' direction='4' connection_type='NormalHallway' picture12="" picture21=""/>
+            <edge node1='00000000-0000-0000-0000-000000000321' node2='00000000-0000-0000-0000-000000322323' bi_direction='2' source = '' direction='4' connection_type='NormalHallway' picture12="" picture21=""/>
+            <edge node1='00000000-0000-0000-0000-000000000321' node2='00000000-0000-0000-0000-100000322323' bi_direction='2' source = '' direction='4' connection_type='NormalHallway' picture12="" picture21=""/>
+            <edge node1='00000000-0000-0000-0000-000000000320' node2='00000000-0000-0000-0000-100000000321' bi_direction='2' source = '' direction='4' connection_type='NormalHallway' picture12="" picture21=""/>
+            <edge node1='00000000-0000-0000-0000-100000000321' node2='00000000-0000-0000-0000-000000322323' bi_direction='2' source = '' direction='4' connection_type='NormalHallway' picture12="" picture21=""/>
+            <edge node1='00000000-0000-0000-0000-100000000321' node2='00000000-0000-0000-0000-100000322323' bi_direction='2' source = '' direction='4' connection_type='NormalHallway' picture12="" picture21=""/>
+            <edge node1='00000000-0000-0000-0000-000000322323' node2='00000000-0000-0000-0000-000000000325' bi_direction='2' source = '' direction='4' connection_type='NormalHallway' picture12="" picture21=""/>
+            <edge node1='00000000-0000-0000-0000-100000322323' node2='00000000-0000-0000-0000-000000000325' bi_direction='2' source = '' direction='4' connection_type='NormalHallway' picture12="" picture21=""/>
+            <edge node1='00000000-0000-0000-0000-000000000325' node2='00000000-0000-0000-0000-000000000326' bi_direction='2' source = '' direction='6' connection_type='NormalHallway' picture12="" picture21=""/>
+            <edge node1='00000000-0000-0000-0000-000000000324' node2='00000000-0000-0000-0000-000000000326' bi_direction='2' source = '' direction='3' connection_type='NormalHallway' picture12="" picture21=""/>
+            <edge node1='00000000-0000-0000-0000-000000000324' node2='00000000-0000-0000-0000-000000000327' bi_direction='2' source = '' direction='5' connection_type='NormalHallway' picture12="" picture21=""/>
+            <edge node1='00000000-0000-0000-0000-000000000326' node2='00000000-0000-0000-0000-000000000327' bi_direction='2' source = '' direction='6' connection_type='NormalHallway' picture12="" picture21=""/>
+            <edge node1='00000000-0000-0000-0000-000000000325' node2='00000000-0000-0000-0000-000000000328' bi_direction='2' source = '' direction='4' connection_type='NormalHallway' picture12="" picture21=""/>
             
-            <edge node1='00000000-0000-0000-0000-000000000325' node2='00000000-0000-0000-0000-100000000325' bi_direction='2' source = '' direction='4' connection_type='NormalHallway' />
-            <edge node1='00000000-0000-0000-0000-000000000325' node2='00000000-0000-0000-0000-200000000325' bi_direction='2' source = '' direction='4' connection_type='NormalHallway' />
-            <edge node1='00000000-0000-0000-0000-100000000325' node2='00000000-0000-0000-0000-200000000325' bi_direction='2' source = '' direction='4' connection_type='NormalHallway' />
+            <edge node1='00000000-0000-0000-0000-000000000325' node2='00000000-0000-0000-0000-100000000325' bi_direction='2' source = '' direction='4' connection_type='NormalHallway' picture12="" picture21=""/>
+            <edge node1='00000000-0000-0000-0000-000000000325' node2='00000000-0000-0000-0000-200000000325' bi_direction='2' source = '' direction='4' connection_type='NormalHallway' picture12="" picture21=""/>
+            <edge node1='00000000-0000-0000-0000-100000000325' node2='00000000-0000-0000-0000-200000000325' bi_direction='2' source = '' direction='4' connection_type='NormalHallway' picture12="" picture21=""/>
 
             
-            <edge node1='00000000-0000-0000-0000-000000322323' node2='00000000-0000-0000-0000-100000000325' bi_direction='2' source = '' direction='4' connection_type='NormalHallway' />
-            <edge node1='00000000-0000-0000-0000-100000322323' node2='00000000-0000-0000-0000-100000000325' bi_direction='2' source = '' direction='4' connection_type='NormalHallway' />
-            <edge node1='00000000-0000-0000-0000-100000000325' node2='00000000-0000-0000-0000-000000000326' bi_direction='2' source = '' direction='6' connection_type='NormalHallway' />
-            <edge node1='00000000-0000-0000-0000-100000000325' node2='00000000-0000-0000-0000-000000000328' bi_direction='2' source = '' direction='4' connection_type='NormalHallway' />
+            <edge node1='00000000-0000-0000-0000-000000322323' node2='00000000-0000-0000-0000-100000000325' bi_direction='2' source = '' direction='4' connection_type='NormalHallway' picture12="" picture21=""/>
+            <edge node1='00000000-0000-0000-0000-100000322323' node2='00000000-0000-0000-0000-100000000325' bi_direction='2' source = '' direction='4' connection_type='NormalHallway' picture12="" picture21=""/>
+            <edge node1='00000000-0000-0000-0000-100000000325' node2='00000000-0000-0000-0000-000000000326' bi_direction='2' source = '' direction='6' connection_type='NormalHallway' picture12="" picture21=""/>
+            <edge node1='00000000-0000-0000-0000-100000000325' node2='00000000-0000-0000-0000-000000000328' bi_direction='2' source = '' direction='4' connection_type='NormalHallway' picture12="" picture21=""/>
             
-            <edge node1='00000000-0000-0000-0000-000000322323' node2='00000000-0000-0000-0000-200000000325' bi_direction='2' source = '' direction='4' connection_type='NormalHallway' />
-            <edge node1='00000000-0000-0000-0000-100000322323' node2='00000000-0000-0000-0000-200000000325' bi_direction='2' source = '' direction='4' connection_type='NormalHallway' />
-            <edge node1='00000000-0000-0000-0000-200000000325' node2='00000000-0000-0000-0000-000000000326' bi_direction='2' source = '' direction='6' connection_type='NormalHallway' />
-            <edge node1='00000000-0000-0000-0000-200000000325' node2='00000000-0000-0000-0000-000000000328' bi_direction='2' source = '' direction='4' connection_type='NormalHallway' />
+            <edge node1='00000000-0000-0000-0000-000000322323' node2='00000000-0000-0000-0000-200000000325' bi_direction='2' source = '' direction='4' connection_type='NormalHallway' picture12="" picture21=""/>
+            <edge node1='00000000-0000-0000-0000-100000322323' node2='00000000-0000-0000-0000-200000000325' bi_direction='2' source = '' direction='4' connection_type='NormalHallway' picture12="" picture21=""/>
+            <edge node1='00000000-0000-0000-0000-200000000325' node2='00000000-0000-0000-0000-000000000326' bi_direction='2' source = '' direction='6' connection_type='NormalHallway' picture12="" picture21=""/>
+            <edge node1='00000000-0000-0000-0000-200000000325' node2='00000000-0000-0000-0000-000000000328' bi_direction='2' source = '' direction='4' connection_type='NormalHallway' picture12="" picture21=""/>
             
-            <edge node1='00000000-0000-0000-0000-000000000326' node2='00000000-0000-0000-0000-000000000329' bi_direction='2' source = '' direction='4' connection_type='NormalHallway' />
-            <edge node1='00000000-0000-0000-0000-000000000327' node2='00000000-0000-0000-0000-000000000330' bi_direction='2' source = '' direction='4' connection_type='NormalHallway' />
-            <edge node1='00000000-0000-0000-0000-000000000328' node2='00000000-0000-0000-0000-000000000329' bi_direction='2' source = '' direction='6' connection_type='NormalHallway' />
-            <edge node1='00000000-0000-0000-0000-000000000329' node2='00000000-0000-0000-0000-000000000330' bi_direction='2' source = '' direction='6' connection_type='NormalHallway' />
+            <edge node1='00000000-0000-0000-0000-000000000326' node2='00000000-0000-0000-0000-000000000329' bi_direction='2' source = '' direction='4' connection_type='NormalHallway' picture12="" picture21=""/>
+            <edge node1='00000000-0000-0000-0000-000000000327' node2='00000000-0000-0000-0000-000000000330' bi_direction='2' source = '' direction='4' connection_type='NormalHallway' picture12="" picture21=""/>
+            <edge node1='00000000-0000-0000-0000-000000000328' node2='00000000-0000-0000-0000-000000000329' bi_direction='2' source = '' direction='6' connection_type='NormalHallway' picture12="" picture21=""/>
+            <edge node1='00000000-0000-0000-0000-000000000329' node2='00000000-0000-0000-0000-000000000330' bi_direction='2' source = '' direction='6' connection_type='NormalHallway' picture12="" picture21=""/>
  
-            <edge node1='00000000-0000-0000-0000-000000000330' node2='00000000-0000-0000-0000-000000000331' bi_direction='2' source = '' direction='4' connection_type='NormalHallway' />
-            <edge node1='00000000-0000-0000-0000-000000000329' node2='00000000-0000-0000-0000-000000003234' bi_direction='2' source = '' direction='4' connection_type='NormalHallway' />
-            <edge node1='00000000-0000-0000-0000-000000000331' node2='00000000-0000-0000-0000-000000003235' bi_direction='2' source = '' direction='4' connection_type='NormalHallway' />
-            <edge node1='00000000-0000-0000-0000-000000003234' node2='00000000-0000-0000-0000-000000000333' bi_direction='2' source = '' direction='2' connection_type='NormalHallway' />
-            <edge node1='00000000-0000-0000-0000-000000000333' node2='00000000-0000-0000-0000-000000000336' bi_direction='2' source = '' direction='4' connection_type='NormalHallway' />
+            <edge node1='00000000-0000-0000-0000-000000000330' node2='00000000-0000-0000-0000-000000000331' bi_direction='2' source = '' direction='4' connection_type='NormalHallway' picture12="" picture21=""/>
+            <edge node1='00000000-0000-0000-0000-000000000329' node2='00000000-0000-0000-0000-000000003234' bi_direction='2' source = '' direction='4' connection_type='NormalHallway' picture12="" picture21=""/>
+            <edge node1='00000000-0000-0000-0000-000000000331' node2='00000000-0000-0000-0000-000000003235' bi_direction='2' source = '' direction='4' connection_type='NormalHallway' picture12="" picture21=""/>
+            <edge node1='00000000-0000-0000-0000-000000003234' node2='00000000-0000-0000-0000-000000000333' bi_direction='2' source = '' direction='2' connection_type='NormalHallway' picture12="" picture21=""/>
+            <edge node1='00000000-0000-0000-0000-000000000333' node2='00000000-0000-0000-0000-000000000336' bi_direction='2' source = '' direction='4' connection_type='NormalHallway' picture12="" picture21=""/>
             <!-- #EndRegion -->
             <beacons beacon_numbers='80'>
                 <beacon uuid='00000000-0402-5242-0000-2019010049c8' waypoint_ids='00000000-0000-0000-0000-000000000301' threshold='-73'/>
@@ -518,83 +529,84 @@
             <waypoint id='00000000-0000-0000-0000-000000000044' name='廁所前岔路44' type='junction' lat='25.038470' lon='121.564535' category='Others' />
             <waypoint id='00000000-0000-0000-0000-000000000042' name='電梯42' type='portal' lat='25.036460' lon='121.564756' category='Elevator' /> 
             
-            <edge node1='00000000-0000-0000-0000-000000000101' node2='00000000-0000-0000-0000-000000000102' bi_direction='2' source = '' direction='2' connection_type='NormalHallway' />
-            <edge node1='00000000-0000-0000-0000-000000000102' node2='00000000-0000-0000-0000-000000000103' bi_direction='2' source = '' direction='2' connection_type='NormalHallway' />
-            <edge node1='00000000-0000-0000-0000-000000000102' node2='00000000-0000-0000-0000-000000000109' bi_direction='2' source = '' direction='4' connection_type='NormalHallway' />
-            <edge node1='00000000-0000-0000-0000-000000000103' node2='00000000-0000-0000-0000-000000000104' bi_direction='2' source = '' direction='2' connection_type='NormalHallway' />
-            <edge node1='00000000-0000-0000-0000-000000000103' node2='00000000-0000-0000-0000-000000000110' bi_direction='2' source = '' direction='4' connection_type='NormalHallway' />
-            <edge node1='00000000-0000-0000-0000-000000000104' node2='00000000-0000-0000-0000-000000000105' bi_direction='2' source = '' direction='2' connection_type='NormalHallway' />
-            <edge node1='00000000-0000-0000-0000-000000000104' node2='00000000-0000-0000-0000-000000000044' bi_direction='2' source = '' direction='0' connection_type='NormalHallway' />
-            <edge node1='00000000-0000-0000-0000-000000000105' node2='00000000-0000-0000-0000-000000000112' bi_direction='2' source = '' direction='4' connection_type='NormalHallway' />
-            <edge node1='00000000-0000-0000-0000-000000000106' node2='00000000-0000-0000-0000-000000000105' bi_direction='2' source = '' direction='6' connection_type='NormalHallway' />
-            <edge node1='00000000-0000-0000-0000-000000000106' node2='00000000-0000-0000-0000-000000000107' bi_direction='2' source = '' direction='2' connection_type='NormalHallway' />
-            <edge node1='00000000-0000-0000-0000-000000000106' node2='00000000-0000-0000-0000-000000000113' bi_direction='2' source = '' direction='4' connection_type='NormalHallway' />
-            <edge node1='00000000-0000-0000-0000-000000000108' node2='00000000-0000-0000-0000-000000000109' bi_direction='2' source = '' direction='2' connection_type='NormalHallway' />
-            <edge node1='00000000-0000-0000-0000-000000000108' node2='00000000-0000-0000-0000-000000000028' bi_direction='1' source = '1' direction='4' connection_type='NormalHallway' />
-            <edge node1='00000000-0000-0000-0000-000000000109' node2='00000000-0000-0000-0000-000000000110' bi_direction='2' source = '' direction='2' connection_type='NormalHallway' />
-            <edge node1='00000000-0000-0000-0000-000000000110' node2='00000000-0000-0000-0000-000000000111' bi_direction='2' source = '' direction='2' connection_type='NormalHallway' />
-            <edge node1='00000000-0000-0000-0000-000000000111' node2='00000000-0000-0000-0000-000000000112' bi_direction='2' source = '' direction='2' connection_type='NormalHallway' />
-            <edge node1='00000000-0000-0000-0000-000000000111' node2='00000000-0000-0000-0000-000000001102' bi_direction='2' source = '' direction='4' connection_type='NormalHallway' />
-            <edge node1='00000000-0000-0000-0000-000000000111' node2='00000000-0000-0000-0000-100000001102' bi_direction='2' source = '' direction='4' connection_type='NormalHallway' />
+            <edge node1='00000000-0000-0000-0000-000000000101' node2='00000000-0000-0000-0000-000000000102' bi_direction='2' source = '' direction='2' connection_type='NormalHallway' picture12="" picture21=""/>
+            <edge node1='00000000-0000-0000-0000-000000000102' node2='00000000-0000-0000-0000-000000000103' bi_direction='2' source = '' direction='2' connection_type='NormalHallway' picture12="" picture21=""/>
+            <edge node1='00000000-0000-0000-0000-000000000102' node2='00000000-0000-0000-0000-000000000109' bi_direction='2' source = '' direction='4' connection_type='NormalHallway' picture12="" picture21=""/>
+            <edge node1='00000000-0000-0000-0000-000000000103' node2='00000000-0000-0000-0000-000000000104' bi_direction='2' source = '' direction='2' connection_type='NormalHallway' picture12="" picture21=""/>
+            <edge node1='00000000-0000-0000-0000-000000000103' node2='00000000-0000-0000-0000-000000000110' bi_direction='2' source = '' direction='4' connection_type='NormalHallway' picture12="" picture21=""/>
+            <edge node1='00000000-0000-0000-0000-000000000104' node2='00000000-0000-0000-0000-000000000105' bi_direction='2' source = '' direction='2' connection_type='NormalHallway' picture12="" picture21=""/>
+            <edge node1='00000000-0000-0000-0000-000000000104' node2='00000000-0000-0000-0000-000000000044' bi_direction='2' source = '' direction='0' connection_type='NormalHallway' picture12="" picture21=""/>
+            <edge node1='00000000-0000-0000-0000-000000000105' node2='00000000-0000-0000-0000-000000000112' bi_direction='2' source = '' direction='4' connection_type='NormalHallway' picture12="" picture21=""/>
+            <edge node1='00000000-0000-0000-0000-000000000106' node2='00000000-0000-0000-0000-000000000105' bi_direction='2' source = '' direction='6' connection_type='NormalHallway' picture12="" picture21=""/>
+            <edge node1='00000000-0000-0000-0000-000000000106' node2='00000000-0000-0000-0000-000000000107' bi_direction='2' source = '' direction='2' connection_type='NormalHallway' picture12="" picture21=""/>
+            <edge node1='00000000-0000-0000-0000-000000000106' node2='00000000-0000-0000-0000-000000000113' bi_direction='2' source = '' direction='4' connection_type='NormalHallway' picture12="" picture21=""/>
+            <edge node1='00000000-0000-0000-0000-000000000108' node2='00000000-0000-0000-0000-000000000109' bi_direction='2' source = '' direction='2' connection_type='NormalHallway' picture12="" picture21=""/>
+            <edge node1='00000000-0000-0000-0000-000000000108' node2='00000000-0000-0000-0000-000000000028' bi_direction='1' source = '1' direction='4' connection_type='NormalHallway' picture12="" picture21=""/>
+            <edge node1='00000000-0000-0000-0000-000000000109' node2='00000000-0000-0000-0000-000000000110' bi_direction='2' source = '' direction='2' connection_type='NormalHallway' picture12="" picture21=""/>
+            <edge node1='00000000-0000-0000-0000-000000000110' node2='00000000-0000-0000-0000-000000000111' bi_direction='2' source = '' direction='2' connection_type='NormalHallway' picture12="" picture21=""/>
+            <edge node1='00000000-0000-0000-0000-000000000111' node2='00000000-0000-0000-0000-000000000112' bi_direction='2' source = '' direction='2' connection_type='NormalHallway' picture12="" picture21=""/>
+            <edge node1='00000000-0000-0000-0000-000000000111' node2='00000000-0000-0000-0000-000000001102' bi_direction='2' source = '' direction='4' connection_type='NormalHallway' picture12="" picture21=""/>
+            <edge node1='00000000-0000-0000-0000-000000000111' node2='00000000-0000-0000-0000-100000001102' bi_direction='2' source = '' direction='4' connection_type='NormalHallway' picture12="" picture21=""/>
 
-            <edge node1='00000000-0000-0000-0000-000000000113' node2='00000000-0000-0000-0000-000000000112' bi_direction='2' source = '' direction='6' connection_type='NormalHallway' />
-            <edge node1='00000000-0000-0000-0000-000000000114' node2='00000000-0000-0000-0000-000000000113' bi_direction='2' source = '' direction='6' connection_type='NormalHallway' />
-            <edge node1='00000000-0000-0000-0000-000000000114' node2='00000000-0000-0000-0000-000000000041' bi_direction='1' source = '1' direction='4' connection_type='NormalHallway' />
-            <edge node1='00000000-0000-0000-0000-000000000201' node2='00000000-0000-0000-0000-000000000202' bi_direction='2' source = '' direction='2' connection_type='NormalHallway' />
-            <edge node1='00000000-0000-0000-0000-000000000202' node2='00000000-0000-0000-0000-000000000203' bi_direction='2' source = '' direction='2' connection_type='NormalHallway' />
-            <edge node1='00000000-0000-0000-0000-000000000202' node2='00000000-0000-0000-0000-000000000209' bi_direction='2' source = '' direction='0' connection_type='NormalHallway' />
-            <edge node1='00000000-0000-0000-0000-000000000203' node2='00000000-0000-0000-0000-000000000204' bi_direction='2' source = '' direction='2' connection_type='NormalHallway' />
-            <edge node1='00000000-0000-0000-0000-000000000203' node2='00000000-0000-0000-0000-000000000210' bi_direction='2' source = '' direction='0' connection_type='NormalHallway' />
-            <edge node1='00000000-0000-0000-0000-000000000204' node2='00000000-0000-0000-0000-000000000205' bi_direction='2' source = '' direction='2' connection_type='NormalHallway' />
-            <edge node1='00000000-0000-0000-0000-000000000204' node2='00000000-0000-0000-0000-000000000042' bi_direction='2' source = '' direction='4' connection_type='NormalHallway' />
-            <edge node1='00000000-0000-0000-0000-000000000205' node2='00000000-0000-0000-0000-000000000212' bi_direction='2' source = '' direction='0' connection_type='NormalHallway' />
-            <edge node1='00000000-0000-0000-0000-000000000206' node2='00000000-0000-0000-0000-000000000205' bi_direction='2' source = '' direction='6' connection_type='NormalHallway' />
-            <edge node1='00000000-0000-0000-0000-000000000206' node2='00000000-0000-0000-0000-000000000207' bi_direction='2' source = '' direction='2' connection_type='NormalHallway' />
-            <edge node1='00000000-0000-0000-0000-000000000206' node2='00000000-0000-0000-0000-000000000213' bi_direction='2' source = '' direction='0' connection_type='NormalHallway' />
-            <edge node1='00000000-0000-0000-0000-000000000208' node2='00000000-0000-0000-0000-000000000209' bi_direction='2' source = '' direction='2' connection_type='NormalHallway' />
-            <edge node1='00000000-0000-0000-0000-000000000208' node2='00000000-0000-0000-0000-000000000037' bi_direction='1' source = '1' direction='0' connection_type='NormalHallway' />
-            <edge node1='00000000-0000-0000-0000-000000000209' node2='00000000-0000-0000-0000-000000000210' bi_direction='2' source = '' direction='2' connection_type='NormalHallway' />
-            <edge node1='00000000-0000-0000-0000-000000000210' node2='00000000-0000-0000-0000-000000000211' bi_direction='2' source = '' direction='2' connection_type='NormalHallway' />
-            <edge node1='00000000-0000-0000-0000-000000000211' node2='00000000-0000-0000-0000-000000000212' bi_direction='2' source = '' direction='2' connection_type='NormalHallway' />
-            <edge node1='00000000-0000-0000-0000-000000000211' node2='00000000-0000-0000-0000-000000002627' bi_direction='2' source = '' direction='0' connection_type='NormalHallway' />
-            <edge node1='00000000-0000-0000-0000-000000000211' node2='00000000-0000-0000-0000-100000002627' bi_direction='2' source = '' direction='0' connection_type='NormalHallway' />
+            <edge node1='00000000-0000-0000-0000-000000000113' node2='00000000-0000-0000-0000-000000000112' bi_direction='2' source = '' direction='6' connection_type='NormalHallway' picture12="" picture21=""/>
+            <edge node1='00000000-0000-0000-0000-000000000114' node2='00000000-0000-0000-0000-000000000113' bi_direction='2' source = '' direction='6' connection_type='NormalHallway' picture12="" picture21=""/>
+            <edge node1='00000000-0000-0000-0000-000000000114' node2='00000000-0000-0000-0000-000000000041' bi_direction='1' source = '1' direction='4' connection_type='NormalHallway' picture12="" picture21=""/>
+            <edge node1='00000000-0000-0000-0000-000000000201' node2='00000000-0000-0000-0000-000000000202' bi_direction='2' source = '' direction='2' connection_type='NormalHallway' picture12="" picture21=""/>
+            <edge node1='00000000-0000-0000-0000-000000000202' node2='00000000-0000-0000-0000-000000000203' bi_direction='2' source = '' direction='2' connection_type='NormalHallway' picture12="" picture21=""/>
+            <edge node1='00000000-0000-0000-0000-000000000202' node2='00000000-0000-0000-0000-000000000209' bi_direction='2' source = '' direction='0' connection_type='NormalHallway' picture12="" picture21=""/>
+            <edge node1='00000000-0000-0000-0000-000000000203' node2='00000000-0000-0000-0000-000000000204' bi_direction='2' source = '' direction='2' connection_type='NormalHallway' picture12="" picture21=""/>
+            <edge node1='00000000-0000-0000-0000-000000000203' node2='00000000-0000-0000-0000-000000000210' bi_direction='2' source = '' direction='0' connection_type='NormalHallway' picture12="" picture21=""/>
+            <edge node1='00000000-0000-0000-0000-000000000204' node2='00000000-0000-0000-0000-000000000205' bi_direction='2' source = '' direction='2' connection_type='NormalHallway' picture12="" picture21=""/>
+            <edge node1='00000000-0000-0000-0000-000000000204' node2='00000000-0000-0000-0000-000000000042' bi_direction='2' source = '' direction='4' connection_type='NormalHallway' picture12="" picture21=""/>
+            <edge node1='00000000-0000-0000-0000-000000000205' node2='00000000-0000-0000-0000-000000000212' bi_direction='2' source = '' direction='0' connection_type='NormalHallway' picture12="" picture21=""/>
+            <edge node1='00000000-0000-0000-0000-000000000206' node2='00000000-0000-0000-0000-000000000205' bi_direction='2' source = '' direction='6' connection_type='NormalHallway' picture12="" picture21=""/>
+            <edge node1='00000000-0000-0000-0000-000000000206' node2='00000000-0000-0000-0000-000000000207' bi_direction='2' source = '' direction='2' connection_type='NormalHallway' picture12="" picture21=""/>
+            <edge node1='00000000-0000-0000-0000-000000000206' node2='00000000-0000-0000-0000-000000000213' bi_direction='2' source = '' direction='0' connection_type='NormalHallway' picture12="" picture21=""/>
+            <edge node1='00000000-0000-0000-0000-000000000208' node2='00000000-0000-0000-0000-000000000209' bi_direction='2' source = '' direction='2' connection_type='NormalHallway' picture12="" picture21=""/>
+            <edge node1='00000000-0000-0000-0000-000000000208' node2='00000000-0000-0000-0000-000000000037' bi_direction='1' source = '1' direction='0' connection_type='NormalHallway' picture12="" picture21=""/>
 
-            <edge node1='00000000-0000-0000-0000-000000000213' node2='00000000-0000-0000-0000-000000000212' bi_direction='2' source = '' direction='6' connection_type='NormalHallway' />
-            <edge node1='00000000-0000-0000-0000-000000000214' node2='00000000-0000-0000-0000-000000000213' bi_direction='2' source = '' direction='6' connection_type='NormalHallway' />
-            <edge node1='00000000-0000-0000-0000-000000000214' node2='00000000-0000-0000-0000-000000000045' bi_direction='2' source = '' direction='0' connection_type='NormalHallway' />         
-            <edge node1='00000000-0000-0000-0000-000000001102' node2='00000000-0000-0000-0000-000000000304' bi_direction='2' source = '' direction='4' connection_type='NormalHallway' />
-            <edge node1='00000000-0000-0000-0000-100000001102' node2='00000000-0000-0000-0000-000000000304' bi_direction='2' source = '' direction='4' connection_type='NormalHallway' />
+            <edge node1='00000000-0000-0000-0000-000000000209' node2='00000000-0000-0000-0000-000000000210' bi_direction='2' source = '' direction='2' connection_type='NormalHallway' picture12="" picture21=""/>
+            <edge node1='00000000-0000-0000-0000-000000000210' node2='00000000-0000-0000-0000-000000000211' bi_direction='2' source = '' direction='2' connection_type='NormalHallway' picture12="" picture21=""/>
+            <edge node1='00000000-0000-0000-0000-000000000211' node2='00000000-0000-0000-0000-000000000212' bi_direction='2' source = '' direction='2' connection_type='NormalHallway' picture12="" picture21=""/>
+            <edge node1='00000000-0000-0000-0000-000000000211' node2='00000000-0000-0000-0000-000000002627' bi_direction='2' source = '' direction='0' connection_type='NormalHallway' picture12="" picture21=""/>
+            <edge node1='00000000-0000-0000-0000-000000000211' node2='00000000-0000-0000-0000-100000002627' bi_direction='2' source = '' direction='0' connection_type='NormalHallway' picture12="" picture21=""/>
 
-            <edge node1='00000000-0000-0000-0000-000000000304' node2='00000000-0000-0000-0000-000000000038' bi_direction='2' source = '' direction='2' connection_type='NormalHallway' />
-            <edge node1='00000000-0000-0000-0000-000000000304' node2='00000000-0000-0000-0000-000000000607' bi_direction='2' source = '' direction='4' connection_type='NormalHallway' />
-            <edge node1='00000000-0000-0000-0000-000000000005' node2='00000000-0000-0000-0000-000000000607' bi_direction='2' source = '' direction='2' connection_type='NormalHallway' />
-            <edge node1='00000000-0000-0000-0000-000000000607' node2='00000000-0000-0000-0000-000000000809' bi_direction='2' source = '' direction='4' connection_type='NormalHallway' />
-            <edge node1='00000000-0000-0000-0000-000000000809' node2='00000000-0000-0000-0000-000000001011' bi_direction='2' source = '' direction='4' connection_type='NormalHallway' />
-            <edge node1='00000000-0000-0000-0000-000000001011' node2='00000000-0000-0000-0000-000000000032' bi_direction='2' source = '' direction='6' connection_type='NormalHallway' />
-            <edge node1='00000000-0000-0000-0000-000000001011' node2='00000000-0000-0000-0000-000000001213' bi_direction='2' source = '' direction='4' connection_type='NormalHallway' />
-            <edge node1='00000000-0000-0000-0000-000000001213' node2='00000000-0000-0000-0000-000000001415' bi_direction='2' source = '' direction='4' connection_type='NormalHallway' />
-            <edge node1='00000000-0000-0000-0000-000000001415' node2='00000000-0000-0000-0000-000000000034' bi_direction='2' source = '' direction='6' connection_type='NormalHallway' />
-            <edge node1='00000000-0000-0000-0000-000000001415' node2='00000000-0000-0000-0000-000000001617' bi_direction='2' source = '' direction='4' connection_type='NormalHallway' />
-            <edge node1='00000000-0000-0000-0000-000000001617' node2='00000000-0000-0000-0000-000000001819' bi_direction='2' source = '' direction='4' connection_type='NormalHallway' />
-            <edge node1='00000000-0000-0000-0000-000000001819' node2='00000000-0000-0000-0000-000000002122' bi_direction='2' source = '' direction='4' connection_type='NormalHallway' />
-            <edge node1='00000000-0000-0000-0000-000000000020' node2='00000000-0000-0000-0000-000000002122' bi_direction='2' source = '' direction='2' connection_type='NormalHallway' />
-            <edge node1='00000000-0000-0000-0000-000000002122' node2='00000000-0000-0000-0000-000000000023' bi_direction='2' source = '' direction='2' connection_type='NormalHallway' />
-            <edge node1='00000000-0000-0000-0000-000000002122' node2='00000000-0000-0000-0000-000000002425' bi_direction='2' source = '' direction='4' connection_type='NormalHallway' />
-            <edge node1='00000000-0000-0000-0000-000000002425' node2='00000000-0000-0000-0000-000000002627' bi_direction='2' source = '' direction='4' connection_type='NormalHallway' />
-            <edge node1='00000000-0000-0000-0000-000000002425' node2='00000000-0000-0000-0000-100000002627' bi_direction='2' source = '' direction='4' connection_type='NormalHallway' />
+            <edge node1='00000000-0000-0000-0000-000000000213' node2='00000000-0000-0000-0000-000000000212' bi_direction='2' source = '' direction='6' connection_type='NormalHallway' picture12="" picture21=""/>
+            <edge node1='00000000-0000-0000-0000-000000000214' node2='00000000-0000-0000-0000-000000000213' bi_direction='2' source = '' direction='6' connection_type='NormalHallway' picture12="" picture21=""/>
+            <edge node1='00000000-0000-0000-0000-000000000214' node2='00000000-0000-0000-0000-000000000045' bi_direction='2' source = '' direction='0' connection_type='NormalHallway' picture12="" picture21=""/> 
+            <edge node1='00000000-0000-0000-0000-000000001102' node2='00000000-0000-0000-0000-000000000304' bi_direction='2' source = '' direction='4' connection_type='NormalHallway' picture12="" picture21=""/>
+            <edge node1='00000000-0000-0000-0000-100000001102' node2='00000000-0000-0000-0000-000000000304' bi_direction='2' source = '' direction='4' connection_type='NormalHallway' picture12="" picture21=""/>
 
-            <edge node1='00000000-0000-0000-0000-000000000028' node2='00000000-0000-0000-0000-000000000029' bi_direction='2' source = '' direction='2' connection_type='NormalHallway' />
-            <edge node1='00000000-0000-0000-0000-000000000029' node2='00000000-0000-0000-0000-000000000030' bi_direction='2' source = '' direction='4' connection_type='NormalHallway' />
-            <edge node1='00000000-0000-0000-0000-000000000030' node2='00000000-0000-0000-0000-000000000031' bi_direction='2' source = '' direction='2' connection_type='NormalHallway' />
-            <edge node1='00000000-0000-0000-0000-000000000030' node2='00000000-0000-0000-0000-000000000033' bi_direction='2' source = '' direction='4' connection_type='NormalHallway' />
-            <edge node1='00000000-0000-0000-0000-000000000031' node2='00000000-0000-0000-0000-000000000032' bi_direction='2' source = '' direction='2' connection_type='NormalHallway' />
-            <edge node1='00000000-0000-0000-0000-000000000033' node2='00000000-0000-0000-0000-000000000034' bi_direction='2' source = '' direction='2' connection_type='NormalHallway' />
-            <edge node1='00000000-0000-0000-0000-000000000033' node2='00000000-0000-0000-0000-000000000035' bi_direction='2' source = '' direction='4' connection_type='NormalHallway' />
-            <edge node1='00000000-0000-0000-0000-000000000035' node2='00000000-0000-0000-0000-000000000036' bi_direction='2' source = '' direction='4' connection_type='NormalHallway' />
-            <edge node1='00000000-0000-0000-0000-000000000036' node2='00000000-0000-0000-0000-000000000037' bi_direction='2' source = '' direction='6' connection_type='NormalHallway' />
-            <edge node1='00000000-0000-0000-0000-000000000038' node2='00000000-0000-0000-0000-000000000040' bi_direction='2' source = '' direction='6' connection_type='NormalHallway' />
-            <edge node1='00000000-0000-0000-0000-000000000040' node2='00000000-0000-0000-0000-000000000041' bi_direction='2' source = '' direction='2' connection_type='NormalHallway' />
-            <edge node1='00000000-0000-0000-0000-000000000043' node2='00000000-0000-0000-0000-000000000044' bi_direction='2' source = '' direction='0' connection_type='NormalHallway' />
+            <edge node1='00000000-0000-0000-0000-000000000304' node2='00000000-0000-0000-0000-000000000038' bi_direction='2' source = '' direction='2' connection_type='NormalHallway' picture12="" picture21=""/>
+            <edge node1='00000000-0000-0000-0000-000000000304' node2='00000000-0000-0000-0000-000000000607' bi_direction='2' source = '' direction='4' connection_type='NormalHallway' picture12="" picture21=""/>
+            <edge node1='00000000-0000-0000-0000-000000000005' node2='00000000-0000-0000-0000-000000000607' bi_direction='2' source = '' direction='2' connection_type='NormalHallway' picture12="" picture21=""/>
+            <edge node1='00000000-0000-0000-0000-000000000607' node2='00000000-0000-0000-0000-000000000809' bi_direction='2' source = '' direction='4' connection_type='NormalHallway' picture12="" picture21=""/>
+            <edge node1='00000000-0000-0000-0000-000000000809' node2='00000000-0000-0000-0000-000000001011' bi_direction='2' source = '' direction='4' connection_type='NormalHallway' picture12="" picture21=""/>
+            <edge node1='00000000-0000-0000-0000-000000001011' node2='00000000-0000-0000-0000-000000000032' bi_direction='2' source = '' direction='6' connection_type='NormalHallway' picture12="" picture21=""/>
+            <edge node1='00000000-0000-0000-0000-000000001011' node2='00000000-0000-0000-0000-000000001213' bi_direction='2' source = '' direction='4' connection_type='NormalHallway' picture12="" picture21=""/>
+            <edge node1='00000000-0000-0000-0000-000000001213' node2='00000000-0000-0000-0000-000000001415' bi_direction='2' source = '' direction='4' connection_type='NormalHallway' picture12="" picture21=""/>
+            <edge node1='00000000-0000-0000-0000-000000001415' node2='00000000-0000-0000-0000-000000000034' bi_direction='2' source = '' direction='6' connection_type='NormalHallway' picture12="" picture21=""/>
+            <edge node1='00000000-0000-0000-0000-000000001415' node2='00000000-0000-0000-0000-000000001617' bi_direction='2' source = '' direction='4' connection_type='NormalHallway' picture12="" picture21=""/>
+            <edge node1='00000000-0000-0000-0000-000000001617' node2='00000000-0000-0000-0000-000000001819' bi_direction='2' source = '' direction='4' connection_type='NormalHallway' picture12="" picture21=""/>
+            <edge node1='00000000-0000-0000-0000-000000001819' node2='00000000-0000-0000-0000-000000002122' bi_direction='2' source = '' direction='4' connection_type='NormalHallway' picture12="" picture21=""/>
+            <edge node1='00000000-0000-0000-0000-000000000020' node2='00000000-0000-0000-0000-000000002122' bi_direction='2' source = '' direction='2' connection_type='NormalHallway' picture12="" picture21=""/>
+            <edge node1='00000000-0000-0000-0000-000000002122' node2='00000000-0000-0000-0000-000000000023' bi_direction='2' source = '' direction='2' connection_type='NormalHallway' picture12="" picture21=""/>
+            <edge node1='00000000-0000-0000-0000-000000002122' node2='00000000-0000-0000-0000-000000002425' bi_direction='2' source = '' direction='4' connection_type='NormalHallway' picture12="" picture21=""/>
+            <edge node1='00000000-0000-0000-0000-000000002425' node2='00000000-0000-0000-0000-000000002627' bi_direction='2' source = '' direction='4' connection_type='NormalHallway' picture12="" picture21=""/>
+            <edge node1='00000000-0000-0000-0000-000000002425' node2='00000000-0000-0000-0000-100000002627' bi_direction='2' source = '' direction='4' connection_type='NormalHallway' picture12="" picture21=""/>
+
+            <edge node1='00000000-0000-0000-0000-000000000028' node2='00000000-0000-0000-0000-000000000029' bi_direction='2' source = '' direction='2' connection_type='NormalHallway' picture12="" picture21=""/>
+            <edge node1='00000000-0000-0000-0000-000000000029' node2='00000000-0000-0000-0000-000000000030' bi_direction='2' source = '' direction='4' connection_type='NormalHallway' picture12="" picture21=""/>
+            <edge node1='00000000-0000-0000-0000-000000000030' node2='00000000-0000-0000-0000-000000000031' bi_direction='2' source = '' direction='2' connection_type='NormalHallway' picture12="" picture21=""/>
+            <edge node1='00000000-0000-0000-0000-000000000030' node2='00000000-0000-0000-0000-000000000033' bi_direction='2' source = '' direction='4' connection_type='NormalHallway' picture12="" picture21=""/>
+            <edge node1='00000000-0000-0000-0000-000000000031' node2='00000000-0000-0000-0000-000000000032' bi_direction='2' source = '' direction='2' connection_type='NormalHallway' picture12="" picture21=""/>
+            <edge node1='00000000-0000-0000-0000-000000000033' node2='00000000-0000-0000-0000-000000000034' bi_direction='2' source = '' direction='2' connection_type='NormalHallway' picture12="" picture21=""/>
+            <edge node1='00000000-0000-0000-0000-000000000033' node2='00000000-0000-0000-0000-000000000035' bi_direction='2' source = '' direction='4' connection_type='NormalHallway' picture12="" picture21=""/>
+            <edge node1='00000000-0000-0000-0000-000000000035' node2='00000000-0000-0000-0000-000000000036' bi_direction='2' source = '' direction='4' connection_type='NormalHallway' picture12="" picture21=""/>
+            <edge node1='00000000-0000-0000-0000-000000000036' node2='00000000-0000-0000-0000-000000000037' bi_direction='2' source = '' direction='6' connection_type='NormalHallway' picture12="" picture21=""/>
+            <edge node1='00000000-0000-0000-0000-000000000038' node2='00000000-0000-0000-0000-000000000040' bi_direction='2' source = '' direction='6' connection_type='NormalHallway' picture12="" picture21=""/>
+            <edge node1='00000000-0000-0000-0000-000000000040' node2='00000000-0000-0000-0000-000000000041' bi_direction='2' source = '' direction='2' connection_type='NormalHallway' picture12="" picture21=""/>
+            <edge node1='00000000-0000-0000-0000-000000000043' node2='00000000-0000-0000-0000-000000000044' bi_direction='2' source = '' direction='0' connection_type='NormalHallway' picture12="" picture21=""/>
           <beacons beacon_numbers='72'>
             <beacon uuid='00000015-0000-2503-8385-000021564006' waypoint_ids='00000000-0000-0000-0000-000000000101' threshold='-70'/>
             <beacon uuid='00000015-0000-2503-8380-000021564175' waypoint_ids='00000000-0000-0000-0000-000000000102' threshold='-68'/>
