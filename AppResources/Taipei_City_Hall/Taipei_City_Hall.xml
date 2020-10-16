@@ -244,7 +244,10 @@
             <!--this edge is 8 to 7-->
             <edge node1='00000000-0000-0000-0000-000000000310' node2='00000000-0000-0000-0000-000000000311' bi_direction='2' source = '' direction='6' connection_type='NormalHallway' picture12="TCH22200807" picture21=""/>
 
-            <edge node1='00000000-0000-0000-0000-000000000308' node2='00000000-0000-0000-0000-000000000312' bi_direction='2' source = '' direction='4' connection_type='NormalHallway' picture12="" picture21=""/>
+            <!--these edge is 10 to 31-->
+            <edge node1='00000000-0000-0000-0000-000000000308' node2='00000000-0000-0000-0000-000000000312' bi_direction='2' source = '' direction='4' connection_type='NormalHallway' picture12="TCH22201031" picture21="TCH22203110"/>
+            <edge node1='00000000-0000-0000-0000-000000000308' node2='00000000-0000-0000-0000-200000000312' bi_direction='2' source = '' direction='4' connection_type='NormalHallway' picture12="TCH22201031" picture21="TCH22203110"/>
+             <edge node1='00000000-0000-0000-0000-000000000308' node2='00000000-0000-0000-0000-100000000312' bi_direction='2' source = '' direction='4' connection_type='NormalHallway' picture12="TCH22201031" picture21="TCH22203110"/>
 
             <!--this edge is 9 to 13-->
             <edge node1='00000000-0000-0000-0000-000000000309' node2='00000000-0000-0000-0000-000000000313' bi_direction='2' source = '' direction='4' connection_type='NormalHallway' picture12="TCH22200913" picture21="TCH22201309"/>
@@ -287,9 +290,14 @@
             <edge node1='00000000-0000-0000-0000-000000000329' node2='00000000-0000-0000-0000-000000003218' bi_direction='1' source = '1' direction='4' connection_type='VirtualHallway' picture12="" picture21=""/>
             <edge node1='00000000-0000-0000-0000-000000003234' node2='00000000-0000-0000-0000-000000003218' bi_direction='1' source = '1' direction='0' connection_type='VirtualHallway' picture12="" picture21=""/>
             
-            <edge node1='00000000-0000-0000-0000-000000000312' node2='00000000-0000-0000-0000-000000000313' bi_direction='2' source = '' direction='6' connection_type='NormalHallway' picture12="" picture21=""/>
+            <!--this edge is 31 to 13-->
+            <edge node1='00000000-0000-0000-0000-000000000312' node2='00000000-0000-0000-0000-000000000313' bi_direction='2' source = '' direction='6' connection_type='NormalHallway' picture12="TCH22203113" picture21="TCH22201331"/>
+
+            <!--this edge is 13 to 12-->
             <edge node1='00000000-0000-0000-0000-000000000313' node2='00000000-0000-0000-0000-000000000314' bi_direction='2' source = '' direction='6' connection_type='NormalHallway' picture12="" picture21=""/>
-            <edge node1='00000000-0000-0000-0000-000000000314' node2='00000000-0000-0000-0000-000000000315' bi_direction='2' source = '' direction='6' connection_type='NormalHallway' picture12="" picture21=""/>
+
+            <!--this edge is 12 to 11-->
+            <edge node1='00000000-0000-0000-0000-000000000314' node2='00000000-0000-0000-0000-000000000315' bi_direction='2' source = '' direction='6' connection_type='NormalHallway' picture12="TCH22201211" picture21=""/>
             <edge node1='00000000-0000-0000-0000-000000000312' node2='00000000-0000-0000-0000-000000316317' bi_direction='2' source = '' direction='4' connection_type='NormalHallway' picture12="" picture21=""/>
             <edge node1='00000000-0000-0000-0000-000000000312' node2='00000000-0000-0000-0000-100000316317' bi_direction='2' source = '' direction='4' connection_type='NormalHallway' picture12="" picture21=""/>
 
@@ -310,12 +318,12 @@
             <edge node1='00000000-0000-0000-0000-100000000312' node2='00000000-0000-0000-0000-000000000313' bi_direction='2' source = '' direction='6' connection_type='NormalHallway' picture12="" picture21=""/>
             <edge node1='00000000-0000-0000-0000-100000000312' node2='00000000-0000-0000-0000-000000316317' bi_direction='2' source = '' direction='4' connection_type='NormalHallway' picture12="" picture21=""/>
             <edge node1='00000000-0000-0000-0000-100000000312' node2='00000000-0000-0000-0000-100000316317' bi_direction='2' source = '' direction='4' connection_type='NormalHallway' picture12="" picture21=""/>
-            <edge node1='00000000-0000-0000-0000-000000000308' node2='00000000-0000-0000-0000-100000000312' bi_direction='2' source = '' direction='4' connection_type='NormalHallway' picture12="" picture21=""/>
+           
             
             <edge node1='00000000-0000-0000-0000-200000000312' node2='00000000-0000-0000-0000-000000000313' bi_direction='2' source = '' direction='6' connection_type='NormalHallway' picture12="" picture21=""/>
             <edge node1='00000000-0000-0000-0000-200000000312' node2='00000000-0000-0000-0000-000000316317' bi_direction='2' source = '' direction='4' connection_type='NormalHallway' picture12="" picture21=""/>
             <edge node1='00000000-0000-0000-0000-200000000312' node2='00000000-0000-0000-0000-100000316317' bi_direction='2' source = '' direction='4' connection_type='NormalHallway' picture12="" picture21=""/>
-            <edge node1='00000000-0000-0000-0000-000000000308' node2='00000000-0000-0000-0000-200000000312' bi_direction='2' source = '' direction='4' connection_type='NormalHallway' picture12="" picture21=""/>
+            
             
             <edge node1='00000000-0000-0000-0000-000000000319' node2='00000000-0000-0000-0000-100000000319' bi_direction='2' source = '' direction='4' connection_type='NormalHallway' picture12="" picture21=""/>
             
@@ -333,7 +341,9 @@
             <edge node1='00000000-0000-0000-0000-100000000321' node2='00000000-0000-0000-0000-100000322323' bi_direction='2' source = '' direction='4' connection_type='NormalHallway' picture12="" picture21=""/>
             <edge node1='00000000-0000-0000-0000-000000322323' node2='00000000-0000-0000-0000-000000000325' bi_direction='2' source = '' direction='4' connection_type='NormalHallway' picture12="" picture21=""/>
             <edge node1='00000000-0000-0000-0000-100000322323' node2='00000000-0000-0000-0000-000000000325' bi_direction='2' source = '' direction='4' connection_type='NormalHallway' picture12="" picture21=""/>
-            <edge node1='00000000-0000-0000-0000-000000000325' node2='00000000-0000-0000-0000-000000000326' bi_direction='2' source = '' direction='6' connection_type='NormalHallway' picture12="" picture21=""/>
+
+            <!--this edge is 19 to 21-->
+            <edge node1='00000000-0000-0000-0000-000000000325' node2='00000000-0000-0000-0000-000000000326' bi_direction='2' source = '' direction='6' connection_type='NormalHallway' picture12="" picture21="TCH22202625"/>
 
             <!--this edge is 20 to 21-->
             <edge node1='00000000-0000-0000-0000-000000000324' node2='00000000-0000-0000-0000-000000000326' bi_direction='2' source = '' direction='3' connection_type='NormalHallway' picture12="TCH22202021" picture21="TCH22202120"/>
