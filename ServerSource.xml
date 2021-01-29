@@ -13,42 +13,6 @@
         <DisplayName name="Yuanlin Christian Hospital" language="en-US"/>
       </DisplayNames>
     </Graph>
-   <Graph name="Taipei_City_Hall" version="1.0004">
-      <DisplayNames>
-         <DisplayName name="台北市政府" language="zh-TW"/>
-         <DisplayName name="Taipei City Hall" language="en-US"/>
-      </DisplayNames>
-     </Graph>
-    <!-- <Graph name="Lab" version="1.000">
-     <DisplayNames>
-       <DisplayName name="Test Field" language="en-US"/>
-       <DisplayName name="測試場域" language="zh-TW"/>
-     </DisplayNames>
-    </Graph> -->
-    <!-- <Graph name="Yuanlin_Christian_Hospital_Test" version="1.0010">
-      <DisplayNames>
-        <DisplayName name="員基調RSSI用" language="zh-TW"/>
-        <DisplayName name="Yuanlin Christian Hospital For test" language="en-US"/>
-      </DisplayNames>
-    </Graph>
-    <Graph name="CCH_Debug" version="1.0011">
-      <DisplayNames>
-        <DisplayName name="員基修bug用" language="zh-TW"/>
-        <DisplayName name="CCH Debug" language="en-US"/>
-      </DisplayNames>
-    </Graph> -->
-   <!--  <Graph name="Taipei_City_Hall_Test" version="1.000">
-      <DisplayNames>
-        <DisplayName name="Taipei city hall for test" language="en-US"/>
-        <DisplayName name="台北市政府測試用" language="zh-TW"/>
-      </DisplayNames>
-    </Graph> -->
-    <!--  <Graph name="vvvvv" version="1.0000">
-     <DisplayNames>
-       <DisplayName name="aaa" language="en-US"/>
-       <DisplayName name="欸欸欸" language="zh-TW"/>
-     </DisplayNames>
-    </Graph>     -->
   </Graphs>
   <Languages>
     <Language name="zh-TW"/>
