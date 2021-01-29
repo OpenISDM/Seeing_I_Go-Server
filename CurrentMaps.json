@@ -2,34 +2,13 @@
 	"Maps" : 
 	[
 		{ 	
-			"Name" : "Lab" , 
-			"Version" : "1.000"
-		},
-		{ 
-			"Name" : "Taipei_City_Hall" , 
-			"Version" : "1.000"
-		},
-		{ 	
 			"Name" : "Yuanlin_Christian_Hospital" , 
 			"Version" : "1.000"
 		},
 		{ 
 			"Name" : "NTUH_Yunlin" , 
 			"Version" : "1.000"
-		},
-		{
-			"Name" : "Taipei_City_Hall_Test",
-			"Version" : "1.000"
-		},
-		{
-			"Name" : "Yuanlin_Christian_Hospital_Test",
-			"Version" : "1.000"
-		},
-		{
-			"Name" : "CCH_Debug",
-			"Version" : "1.000"
 		}
-
 	],
 
 	"Languages":
