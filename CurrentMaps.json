@@ -8,6 +8,10 @@
 		{ 
 			"Name" : "NTUH_Yunlin" , 
 			"Version" : "1.000"
+		},
+		{
+			"Name": "NTUH_Hsinchu",
+			"Version": "1.0001"
 		}
 	],
 
