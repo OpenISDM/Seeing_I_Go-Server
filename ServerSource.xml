@@ -15,7 +15,7 @@
     </Graph>
 	<Graph name="NTUH_Hsinchu" version="1.0001">
 		<DisplayNames>
-        <DisplayName name="台大生醫分院" language="zh-TW"/>
+        <DisplayName name="台大醫院生醫分院" language="zh-TW"/>
         <DisplayName name="NTUH Hsinchu" language="en-US"/>
       </DisplayNames>
 	</Graph>
