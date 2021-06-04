@@ -37,16 +37,17 @@ var GetSupportList = function(){
 	return ReadFile(Path);
 }
 
-var GetMainResources = function (MapName){
+var GetMainResources = function (MapName, isBeta = false){
 	console.log(">>GetMainResources");
-	var Path = "./AppResources/" + MapName + "/"+ MapName + ".xml";
+	if(isBeta) var Path = "./AppResources/Beta/" + MapName + "/"+ MapName + ".xml";
+	else var Path = "./AppResources/" + MapName + "/"+ MapName + ".xml";
 
 	console.log("Main resource Path : " + Path);
 
 	return ReadFile(Path);
 }
 
-var GetFirstDirectionResources= function(MapName , Language){
+var GetFirstDirectionResources= function(MapName , Language, isBeta=false ){
 	console.log(">>GetFirstDirectionResources");
 	var Path = "./AppResources/" + MapName + "/" + MapName + "_FD_" + Language + ".xml";
 
@@ -54,7 +55,7 @@ var GetFirstDirectionResources= function(MapName , Language){
 	return ReadFile(Path);
 }
 
-var GetNameResources = function (MapName, Language){
+var GetNameResources = function (MapName, Language, isBeta = false){
 	console.log(">>GetNameResources");
 	var Path = "./AppResources/" + MapName + "/" + MapName + "_info_" + Language + ".xml";
 
@@ -93,7 +94,8 @@ var CheckExistPatient = function(HospitalName, PatientID){
 }
 
 var CheckPictureExist = function(buildingName, fileName){
-	return true;
+	var resoucePath = Path.join(__dirname, 'AppResouces', buildingName, 'DirectionPictures');
+	
 }
 
 var GetPicture = function(buildingName, fileName){

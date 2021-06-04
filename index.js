@@ -30,9 +30,6 @@ var CompareApiKey = function(ApiString){
 	return false;
 }
 
-// app.use(express.static('public'));
-// app.use(express.static('files'));
-
 
 app.get('/Policy', function(request, response){	
 	response.sendFile(path.join(__dirname + '/static/PrivacyPolice.html'));	
@@ -76,8 +73,6 @@ app.get('/:buildingName/:type/:Language' , function(request, response){
 			response.send("You have a wrong input, sorry!");
 		}
 
-	}else if(_resources.CheckPictureExist(Language)){
-		response.sendFile(_resources.GetPicturePath(buildingName, Language));
 	}else{
 		console.log("Can't not find language or it have not been supported");
 		response.send("the Language doesn't support or have a wrong input, try again!");
@@ -112,14 +107,46 @@ app.post('/oppa', function(request, respond){
 	}
 });
 
-app.get('/pictures/:buildingName/:fileName', function(request, respond){
-	console.log(">>post function, Picutre");
+app.post('/pictures', function(request, response){
+	console.log(request.body)
+	const {buildingName, fileName} = request.body;
+	if(_resources.CheckPictureExist(buildingName, fileName)){
+		console.log('resource contain the picture.')
 
-	if(_resources.CheckPictureExist(request.body.buildingName, request.body.fileName)){
-		//respond.sendFile(path.join(__dirname + "building/pictures/fileName"));
-		respond.sendFile(_resources.GetPicturePath(request.body.buildingName, request.body.fileName));
+		response.sendFile(_resources.GetPicturePath(buildingName, fileName));
 	}else{
-		respond.send("Can not found the picture.");
+		response.send("no such directory of the name.")
 	}
+})
+
+
+app.post('/download', function(request, response){
+	console.log(request.body)
+	const {buildingName, type, language, isBeta = false} = request.body
+
+	if(_resources.CompareLanguage(language)){
+		console.log("it have been supported");
+		response.set('Content-Type', XmlContentType);
+		response.charset= CharSet;
+		// define when url type column contain "firstDirections", it will send FD file response.
+		// define the url type column contain "infos", it will send Name info file response.
+		if(type == 'main'){
+			response.send(_resources.GetMainResources(buildingName, isBeta));
+		}
+		else if(type == 'firstdirections'){
+			console.log('Type : ' +type);
+			response.send(_resources.GetFDResources(buildingName,language, isBeta));
+		}else if(Type == 'infos'){
+			console.log('Type : ' + type);
+			response.send(_resources.GetNameResources(buildingName,language, isBeta));
+		}else{
+			response.send("You have a wrong input, sorry!");
+		}
+
+	}else{
+		console.log("Can't not find language or it have not been supported");
+		response.send("the Language doesn't support or have a wrong input, try again!");
+	}
+
 });
 
