@@ -43,11 +43,7 @@ app.get('/' , function(reqest, response){
 	//response.send('Hello world');
 });
 
-app.get('/:buildingName', function(request, response){
-	console.log("All file names list");
-	response.json(_resources.GetFileList(request.params.buildingName));
-	
-})
+
 
 app.get('/:buildingName/:type/:Language' , function(request, response){
 	console.log("FD or Name or picture");
@@ -109,11 +105,11 @@ app.post('/oppa', function(request, respond){
 
 app.post('/pictures', function(request, response){
 	console.log(request.body)
-	const {buildingName, fileName} = request.body;
+	const {buildingName, fileName, isBeta = false} = request.body;
 	if(_resources.CheckPictureExist(buildingName, fileName)){
 		console.log('resource contain the picture.')
 
-		response.sendFile(_resources.GetPicturePath(buildingName, fileName));
+		response.sendFile(_resources.GetPicturePath(buildingName, fileName, isBeta));
 	}else{
 		response.send("no such directory of the name.")
 	}
@@ -150,3 +146,10 @@ app.post('/download', function(request, response){
 
 });
 
+app.post('/PictureList', function(request, response){
+	console.log("All file names list");
+	console.log(request.body)
+	const { buildingName, isBeta = false } = request.body;
+	response.json(_resources.GetFileList(buildingName, isBeta));
+	
+});
