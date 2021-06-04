@@ -6,6 +6,7 @@ const Fin = require ('fs');
 const path = require('path');
 const app = express();
 const bodyParser = require('body-parser');
+const { Console } = require('console');
 
 var privateKey = Fin.readFileSync(__dirname + '/ssl/private.key');
 var certificate = Fin.readFileSync(__dirname + '/ssl/certificate.crt');
@@ -45,12 +46,14 @@ app.get('/' , function(reqest, response){
 	//response.send('Hello world');
 });
 
-// app.get('/:a/:b/:c', function(request,response){
-// 	response.send(_resources.ReadFile('.well-known/pki-validation/D02C8717BE6B1175FA9303103BD07383.txt'));
-// })
+app.get('/:buildingName', function(request, response){
+	console.log("All file names list");
+	response.json(_resources.GetFileList(request.params.buildingName));
+	
+})
 
 app.get('/:buildingName/:type/:Language' , function(request, response){
-	console.log("FD or Name");
+	console.log("FD or Name or picture");
 	//response.send(request.params.buildingName + "    " + request.params.type + "   " + request.params.Language);
 
 	var buildingName = request.params.buildingName;
@@ -73,6 +76,8 @@ app.get('/:buildingName/:type/:Language' , function(request, response){
 			response.send("You have a wrong input, sorry!");
 		}
 
+	}else if(_resources.CheckPictureExist(Language)){
+		response.sendFile(_resources.GetPicturePath(buildingName, Language));
 	}else{
 		console.log("Can't not find language or it have not been supported");
 		response.send("the Language doesn't support or have a wrong input, try again!");
@@ -107,12 +112,12 @@ app.post('/oppa', function(request, respond){
 	}
 });
 
-app.post('/pictures', function(request, respond){
+app.get('/pictures/:buildingName/:fileName', function(request, respond){
 	console.log(">>post function, Picutre");
 
-	if(_resources.CheckPictureExist(request.query.building, request.body.fileName)){
+	if(_resources.CheckPictureExist(request.body.buildingName, request.body.fileName)){
 		//respond.sendFile(path.join(__dirname + "building/pictures/fileName"));
-		respond.sendFile(_resources.GetPicturePath(request.query.building, request.body.fileName));
+		respond.sendFile(_resources.GetPicturePath(request.body.buildingName, request.body.fileName));
 	}else{
 		respond.send("Can not found the picture.");
 	}

@@ -1,4 +1,6 @@
+const { Console } = require('console');
 var Fin = require('fs');
+var Path = require('path');
 //var XmlDocument = require('xmldoc');
 const utf8 = "utf8"
 
@@ -97,12 +99,22 @@ var CheckPictureExist = function(buildingName, fileName){
 var GetPicture = function(buildingName, fileName){
 	console.log(">>GetPicture");
 	console.log("file path :" + __dirname + "/AppResources/" +buildingName +"/" + "pictures/" + fileName);
-	return ReadFile( __dirname + "/AppResources/" +buildingName +"/" + "pictures/" + fileName);
+	return ReadFile( __dirname + "/AppResources/" +buildingName +"/DirectionPictures/" + fileName);
 }
 
 var GetPicturePath = function(buildingName, fileName){
 	console.log(">>GetPicturePath");
-	return __dirname + "/AppResources/" +buildingName +"/" + "pictures/" + fileName;
+
+	return __dirname + "/AppResources/" +buildingName +"/DirectionPictures/" + fileName;
+}
+
+var GetFileList = function(buildingName){
+	console.log(">>GetFileList");
+
+	var resoucePath = Path.join(__dirname, 'AppResources', buildingName, 'DirectionPictures');
+	console.log('resouce path : ' + resoucePath);
+	var Picturefiles = Fin.readdirSync(resoucePath)
+	return Picturefiles;
 }
 
 var Resourcemodule={
@@ -118,7 +130,8 @@ var Resourcemodule={
 	ReadFile : ReadFile,
 	CheckPictureExist : CheckPictureExist,
 	GetPicture : GetPicture,
-	GetPicturePath : GetPicturePath
+	GetPicturePath : GetPicturePath,
+	GetFileList: GetFileList,
 }
 
 module.exports = Resourcemodule;
