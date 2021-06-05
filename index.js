@@ -132,7 +132,7 @@ app.post('/download', function(request, response){
 		else if(type == 'firstdirections'){
 			console.log('Type : ' +type);
 			response.send(_resources.GetFDResources(buildingName,language, isBeta));
-		}else if(Type == 'infos'){
+		}else if(type == 'infos'){
 			console.log('Type : ' + type);
 			response.send(_resources.GetNameResources(buildingName,language, isBeta));
 		}else{
