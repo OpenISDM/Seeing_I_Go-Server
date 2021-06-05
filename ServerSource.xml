@@ -21,10 +21,10 @@
 	</Graph>
   </Graphs>
   <BetaGraphs>
-    <Graph name="RLANRC_Beta" version="1.0001">
+    <Graph name="RLANRC" version="1.0001">
 		  <DisplayNames>
-        <DisplayName name="Rancho Los Amigo" language="zh-TW"/>
-        <DisplayName name="Rancho Los Amigo" language="en-US"/>
+        <DisplayName name="Rancho Los Amigo(Beta)" language="zh-TW"/>
+        <DisplayName name="Rancho Los Amigo(Beta)" language="en-US"/>
       </DisplayNames>
 	  </Graph>
   </BetaGraphs>
