@@ -49,7 +49,9 @@ var GetMainResources = function (MapName, isBeta = false) {
 
 var GetFirstDirectionResources = function (MapName, Language, isBeta = false) {
 	console.log(">>GetFirstDirectionResources");
-	var Path = "./AppResources/" + MapName + "/" + MapName + "_FD_" + Language + ".xml";
+	console.log("isBeat" + isBeta);
+	if(isBeta) var Path = "./AppResources/Beta/" + MapName + "/" + MapName + "_FD_" + Language + ".xml";
+	else var Path = "./AppResources/" + MapName + "/" + MapName + "_FD_" + Language + ".xml";
 
 	console.log("FD Resources Path : " + Path);
 	return ReadFile(Path);
@@ -57,7 +59,8 @@ var GetFirstDirectionResources = function (MapName, Language, isBeta = false) {
 
 var GetNameResources = function (MapName, Language, isBeta = false) {
 	console.log(">>GetNameResources");
-	var Path = "./AppResources/" + MapName + "/" + MapName + "_info_" + Language + ".xml";
+	if(isBeta) var Path="./AppResources/Beta/" + MapName + "/" + MapName + "_info_" + Language + ".xml";
+	else 	var Path = "./AppResources/" + MapName + "/" + MapName + "_info_" + Language + ".xml";
 
 	console.log("Name Resources Path : " + Path);
 	return ReadFile(Path);
