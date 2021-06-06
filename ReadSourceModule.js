@@ -96,9 +96,9 @@ var CheckExistPatient = function (HospitalName, PatientID) {
 	return false;
 }
 
-var CheckPictureExist = function (buildingName, fileName) {
-	var resoucePath = Path.join(__dirname, 'AppResouces', buildingName, 'DirectionPictures');
-
+var CheckPictureExist = function (buildingName, fileName, isBeta) {
+	//var resoucePath = Path.join(__dirname, 'AppResouces', buildingName, 'DirectionPictures');
+	return true;
 }
 
 var GetPicture = function (buildingName, fileName) {
@@ -107,10 +107,11 @@ var GetPicture = function (buildingName, fileName) {
 	return ReadFile(__dirname + "/AppResources/" + buildingName + "/DirectionPictures/" + fileName);
 }
 
-var GetPicturePath = function (buildingName, fileName) {
+var GetPicturePath = function (buildingName, fileName, isBeta) {
 	console.log(">>GetPicturePath");
-
-	return __dirname + "/AppResources/" + buildingName + "/DirectionPictures/" + fileName;
+	console.log( __dirname + "/AppResources/" + buildingName + "/DirectionPictures/" + fileName)	
+	if(isBeta) return __dirname + "/AppResources/Beta/" + buildingName + "/DirectionPictures/" + fileName;
+	else return  __dirname + "/AppResources/" + buildingName + "/DirectionPictures/" + fileName
 }
 
 var GetFileList = function (buildingName, isBeta = false) {
