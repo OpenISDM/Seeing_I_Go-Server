@@ -29,8 +29,8 @@
 			<waypoint id='00000000-0000-0000-0000-000000000006' name='BusStop03' type='terminal' lat='33.92957' lon='-118.15788' category='Others' />
       
       <edge node1='00000000-0000-0000-0000-000000000001' node2='00000000-0000-0000-0000-000000000002' bi_direction='2' source='' direction='4' connection_type='NormalHallway'/>
-      <edge node1='00000000-0000-0000-0000-000000000002' node2='00000000-0000-0000-0000-000000000003' bi_direction='2' source='' direction='4' picture12="test_picture1" picture21="test_picture2" connection_type='NormalHallway'/>
-      <edge node1='00000000-0000-0000-0000-000000000003' node2='00000000-0000-0000-0000-000000000004' bi_direction='2' source='' direction='2' picture12="test_picture3" picture21="test_picture3" connection_type='NormalHallway'/>
+      <edge node1='00000000-0000-0000-0000-000000000002' node2='00000000-0000-0000-0000-000000000003' bi_direction='2' source='' direction='4' connection_type='NormalHallway'/>
+      <edge node1='00000000-0000-0000-0000-000000000003' node2='00000000-0000-0000-0000-000000000004' bi_direction='2' source='' direction='2' connection_type='NormalHallway'/>
       <edge node1='00000000-0000-0000-0000-000000000004' node2='00000000-0000-0000-0000-000000000005' bi_direction='2' source='' direction='2' connection_type='NormalHallway'/>
       <edge node1='00000000-0000-0000-0000-000000000005' node2='00000000-0000-0000-0000-000000000006' bi_direction='2' source='' direction='2' connection_type='NormalHallway'/>
       <beacons beacon_numbers='6'>
