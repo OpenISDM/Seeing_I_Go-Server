@@ -1,4 +1,3 @@
-const { Console } = require('console');
 var Fin = require('fs');
 var Path = require('path');
 //var XmlDocument = require('xmldoc');
@@ -65,14 +64,7 @@ var GetNameResources = function (MapName, Language, isBeta = false) {
 }
 
 
-var GetRecords = function (PatientID) {
-	var path = "./RecordFolder/" + PatientID + "/" + PatientID + "_" + Math.floor(Math.random() * 2) + ".xml";
-	console.log("The path is : " + path);
-
-	return ReadFile(path);
-}
-
-
+//TODO : I have to implement this function.
 var CheckPictureExist = function (buildingName, fileName, isBeta) {
 	//var resoucePath = Path.join(__dirname, 'AppResouces', buildingName, 'DirectionPictures');
 	return true;
@@ -103,19 +95,16 @@ var GetFileList = function (buildingName, isBeta = false) {
 	};
 }
 
-var Resourcemodule = {
+export default {
 	CompareMapName: CompareMapName,
 	CompareLanguage: CompareLanguage,
 	GetSupportList: GetSupportList,
 	GetFDResources: GetFirstDirectionResources,
 	GetMainResources: GetMainResources,
 	GetNameResources: GetNameResources,
-	GetRecords: GetRecords,
 	ReadFile: ReadFile,
 	CheckPictureExist: CheckPictureExist,
 	GetPicture: GetPicture,
 	GetPicturePath: GetPicturePath,
 	GetFileList: GetFileList,
 }
-
-module.exports = Resourcemodule;
