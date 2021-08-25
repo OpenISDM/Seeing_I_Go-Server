@@ -34,7 +34,6 @@ app.get('/' , function(reqest, response){
 
 app.get('/:buildingName/:type/:Language' , function(request, response){
 	console.log("FD or Name or picture");
-	//response.send(request.params.buildingName + "    " + request.params.type + "   " + request.params.Language);
 
 	var buildingName = request.params.buildingName;
 	var Type = request.params.type;
@@ -77,18 +76,6 @@ app.get('/:buildingName/:type' , function(request, response){
 });
 
 app.use(bodyParser.json({extended : false }));
-
-app.post('/oppa', function(request, respond){
-
-	console.log(">>post function")	
-
-	if(_resources.CheckExistPatient(request.query.building ,request.body.PatientID)){
-		respond.send(_resources.GetRecords(request.body.PatientID));
-	}
-	else{
-		respond.send("No such person found...");
-	}
-});
 
 app.post('/pictures', function(request, response){
 	console.log(request.body)
