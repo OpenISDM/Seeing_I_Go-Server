@@ -1,19 +1,16 @@
-	const express = require('express');
-const http = require('http');
+const express = require('express');
 const https = require('https');
 const _resources = require ('./ReadSourceModule');
 const Fin = require ('fs');
 const path = require('path');
 const app = express();
 const bodyParser = require('body-parser');
-const { Console } = require('console');
 
 var privateKey = Fin.readFileSync(__dirname + '/ssl/private.key');
 var certificate = Fin.readFileSync(__dirname + '/ssl/certificate.crt');
 var credentails = { key : privateKey, cert : certificate };
 
 var server = https.createServer(credentails, app);
-
 
 server.listen(443,function(){
 	console.log('the server is listening port 443');
@@ -23,24 +20,14 @@ const CharSet = 'utf8'
 const XmlContentType = 'text/xml';
 const JsonContentType= 'Application/Json';
 
-var CompareApiKey = function(ApiString){
-	if(ApiString == "AppKey wait for define")
-		return true;
-
-	return false;
-}
 
 
-app.get('/Policy', function(request, response){	
-	response.sendFile(path.join(__dirname + '/static/PrivacyPolice.html'));	
-});
 
 app.get('/' , function(reqest, response){
 	response.set('Content-Type', XmlContentType);
 	response.charset=CharSet;
 	response.send(_resources.GetSupportList());
 	console.log("response : GetSupportList");
-	//response.send('Hello world');
 });
 
 
