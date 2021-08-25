@@ -18,7 +18,6 @@ var CompareMapName = function (MapName) {
 
 var CompareLanguage = function (LanguageName) {
 	console.log(LanguageName);
-
 	const filter = json.Languages.filter(ele => ele.Name == LanguageName);
 
 	if (filter.length >= 1) {
@@ -33,7 +32,6 @@ var ReadFile = function (Path) {
 
 var GetSupportList = function () {
 	var Path = "./ServerSource.xml";
-
 	return ReadFile(Path);
 }
 
@@ -66,13 +64,6 @@ var GetNameResources = function (MapName, Language, isBeta = false) {
 	return ReadFile(Path);
 }
 
-var GetBeaconResouces = function (MapName) {
-	console.log(">>GetBeaconResouces");
-	var Path = "./AppResources/" + MapName + "/" + MapName + "_Beacon.xml";
-	console.log("Beacon Path : " + Path);
-
-	return ReadFile(Path);
-}
 
 var GetRecords = function (PatientID) {
 	var path = "./RecordFolder/" + PatientID + "/" + PatientID + "_" + Math.floor(Math.random() * 2) + ".xml";
@@ -81,20 +72,6 @@ var GetRecords = function (PatientID) {
 	return ReadFile(path);
 }
 
-var CheckExistPatient = function (HospitalName, PatientID) {
-	console.log(">>CheckPatient");
-	var path = "./CurrentPatientList.json";
-
-	var HospitalList = JSON.parse(ReadFile(path));
-
-	for (i = 0; i < HospitalList.Hospitals.length; i++) {
-		if (HospitalList.Hospitals[i].HospitalName != HospitalName)
-			continue;
-
-		return HospitalList.Hospitals[i].PatientList.includes(PatientID);
-	}
-	return false;
-}
 
 var CheckPictureExist = function (buildingName, fileName, isBeta) {
 	//var resoucePath = Path.join(__dirname, 'AppResouces', buildingName, 'DirectionPictures');
@@ -128,13 +105,11 @@ var GetFileList = function (buildingName, isBeta = false) {
 
 var Resourcemodule = {
 	CompareMapName: CompareMapName,
-	GetBeaconResouces: GetBeaconResouces,
 	CompareLanguage: CompareLanguage,
 	GetSupportList: GetSupportList,
 	GetFDResources: GetFirstDirectionResources,
 	GetMainResources: GetMainResources,
 	GetNameResources: GetNameResources,
-	CheckExistPatient: CheckExistPatient,
 	GetRecords: GetRecords,
 	ReadFile: ReadFile,
 	CheckPictureExist: CheckPictureExist,
