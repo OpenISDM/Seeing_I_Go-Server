@@ -3,9 +3,7 @@ const express = require('express');
 const https = require('https');
 const _resources = require ('./ReadSourceModule');
 const Fin = require ('fs');
-const path = require('path');
 const app = express();
-const bodyParser = require('body-parser');
 
 var privateKey = Fin.readFileSync(__dirname + '/ssl/private.key');
 var certificate = Fin.readFileSync(__dirname + '/ssl/certificate.crt');
@@ -76,7 +74,7 @@ app.get('/:buildingName/:type' , function(request, response){
 
 });
 
-app.use(bodyParser.json({extended : false }));
+app.use(express.json({extended : false }));
 
 app.post('/pictures', function(request, response){
 	console.log(request.body)
