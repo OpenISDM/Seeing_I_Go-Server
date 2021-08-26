@@ -1,6 +1,5 @@
 var Fin = require('fs');
 var Path = require('path');
-//var XmlDocument = require('xmldoc');
 const utf8 = "utf8"
 
 var MapData = Fin.readFileSync('./CurrentMaps.json', utf8);
@@ -66,7 +65,6 @@ var GetNameResources = function (MapName, Language, isBeta = false) {
 
 //TODO : I have to implement this function.
 var CheckPictureExist = function (buildingName, fileName, isBeta) {
-	//var resoucePath = Path.join(__dirname, 'AppResouces', buildingName, 'DirectionPictures');
 	return true;
 }
 
